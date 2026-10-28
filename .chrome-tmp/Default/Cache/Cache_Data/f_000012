@@ -1,0 +1,410 @@
+// Real verified client data for ROY LOAN CONSULTANCY
+// Founder & Consultant: Soumitra Roy
+import visitingCardImg from "/src/assets/images/edited/visiting_card_official.jpg?import";
+import consultationImg from "/src/assets/images/edited/client_consultation.jpg?import";
+import exteriorBoardImg from "/src/assets/images/edited/exterior_board_focused.jpg?import";
+import signboardGoldImg from "/src/assets/images/edited/signboard_gold_black.jpg?import";
+import advisoryDeskImg from "/src/assets/images/edited/advisory_session.jpg?import";
+import infrastructureImg from "/src/assets/images/edited/office_infrastructure.jpg?import";
+import facadeFullImg from "/src/assets/images/edited/facade_full.jpg?import";
+import officePanoramicImg from "/src/assets/images/edited/office_panoramic.jpg?import";
+export const siteData = {
+	company: {
+		name: "Roy Loan Consultancy",
+		consultant: "Soumitra Roy",
+		role: "Senior Loan & Financial Consultant",
+		tagline: "All Government Bank Loans Available",
+		subtitle: "Fast, Transparent & Reliable Loan Advisory in Kolkata",
+		experience: "Trusted Local Consultancy",
+		registeredOffice: "Narendrapur Rathtala, Sonarpur, Kolkata - 700103",
+		website: "www.royloanconsultancy.in"
+	},
+	contact: {
+		primaryPhone: "9432957459",
+		secondaryPhone: "8240616913",
+		tertiaryPhone: "7278917176",
+		primaryPhoneDisplay: "+91 94329 57459",
+		secondaryPhoneDisplay: "+91 82406 16913",
+		tertiaryPhoneDisplay: "+91 72789 17176",
+		whatsapp: "9432957459",
+		whatsappDisplay: "+91 94329 57459",
+		email: "rsoumitra72@gmail.com",
+		formattedAddress: "N. S. Bose Road, Narendrapur Rathtala, Sonarpur, Kolkata, South 24 Parganas, West Bengal - 700103",
+		shortAddress: "Narendrapur Rathtala, Sonarpur, Kolkata - 700103",
+		googleMapUrl: "https://maps.app.goo.gl/jFbkRjeaJvhg5UEx6"
+	},
+	timings: {
+		days: "Monday – Saturday",
+		hours: "10:00 AM – 8:00 PM",
+		sunday: "Open for Urgent Appointments"
+	},
+	navigation: [
+		{
+			name: "Home",
+			href: "#home"
+		},
+		{
+			name: "About Us",
+			href: "#about"
+		},
+		{
+			name: "Loan Services",
+			href: "#services"
+		},
+		{
+			name: "Office & Gallery",
+			href: "#gallery"
+		},
+		{
+			name: "Contact",
+			href: "#contact"
+		}
+	],
+	stats: [
+		{
+			label: "Bank Loan Types",
+			value: "7+"
+		},
+		{
+			label: "Partner PSU & Pvt Banks",
+			value: "15+"
+		},
+		{
+			label: "Loan Approval Rate",
+			value: "98%*"
+		},
+		{
+			label: "Consultation Fee",
+			value: "100% Free"
+		}
+	],
+	partnerBanks: [
+		{
+			name: "State Bank of India",
+			short: "SBI",
+			type: "Government Bank"
+		},
+		{
+			name: "Punjab National Bank",
+			short: "PNB",
+			type: "Government Bank"
+		},
+		{
+			name: "Union Bank of India",
+			short: "UBI",
+			type: "Government Bank"
+		},
+		{
+			name: "Bank of India",
+			short: "BOI",
+			type: "Government Bank"
+		},
+		{
+			name: "Central Bank of India",
+			short: "CBI",
+			type: "Government Bank"
+		},
+		{
+			name: "Bank of Baroda",
+			short: "BOB",
+			type: "Government Bank"
+		},
+		{
+			name: "HDFC Bank",
+			short: "HDFC",
+			type: "Leading Private Bank"
+		},
+		{
+			name: "ICICI Bank",
+			short: "ICICI",
+			type: "Leading Private Bank"
+		},
+		{
+			name: "Axis Bank",
+			short: "AXIS",
+			type: "Leading Private Bank"
+		}
+	],
+	services: [
+		{
+			id: "personal-loan",
+			title: "Personal Loan",
+			badge: "Quick Disbursement",
+			icon: "UserCheck",
+			description: "Fast collateral-free personal loans for salaried employees and self-employed individuals to fund medical needs, weddings, travel, or debt consolidation.",
+			highlight: "Unsecured • Minimal Paperwork",
+			interestRate: "Starting 10.25% p.a.*",
+			maxTenure: "Up to 5 - 7 Years",
+			documents: [
+				"Last 3 Months Salary Slips",
+				"6 Months Bank Statement",
+				"PAN & Aadhaar Card",
+				"Form 16 / ITR"
+			],
+			keyFeatures: [
+				"Zero collateral requirement",
+				"Approval in 24-48 hours*",
+				"Flexible repayment options"
+			]
+		},
+		{
+			id: "home-loan",
+			title: "Home Loan",
+			badge: "Lowest Interest Rates",
+			icon: "Home",
+			description: "Affordable home loans for ready-to-move flats, under-construction apartments, self-construction on plots, renovation, and balance transfers from other banks.",
+			highlight: "Government Subsidy & Low Rates",
+			interestRate: "Starting 8.40% p.a.*",
+			maxTenure: "Up to 30 Years",
+			documents: [
+				"Property Chain of Title",
+				"Sanctioned Building Plan",
+				"Income Documents / ITR",
+				"KYC Documents"
+			],
+			keyFeatures: [
+				"Highest loan-to-value ratio",
+				"Tax savings under Sec 80C & 24B",
+				"Smooth legal & valuation support"
+			]
+		},
+		{
+			id: "business-loan",
+			title: "Business Loan",
+			badge: "Working Capital & Growth",
+			icon: "Briefcase",
+			description: "Dedicated financing for retail shop owners, traders, manufacturers, contractors, and service providers looking to expand operations or manage cash flows.",
+			highlight: "Customized for Small & Mid Business",
+			interestRate: "Starting 11.50% p.a.*",
+			maxTenure: "Up to 5 Years",
+			documents: [
+				"2-3 Years ITR with Computation",
+				"GST Returns (12 Months)",
+				"Bank Statements (1 Year)",
+				"Business Registration / Trade License"
+			],
+			keyFeatures: [
+				"No asset blockage required for unsecured options",
+				"Fast working capital sanctions",
+				"Overdraft (OD) & Term loan options"
+			]
+		},
+		{
+			id: "msme-mudra-loan",
+			title: "MSME Mudra Loan",
+			badge: "Govt. Supported Schemes",
+			icon: "Award",
+			description: "Specialized assistance for Prime Minister Mudra Yojana (PMMY) loans covering Shishu (up to ₹50k), Kishor (up to ₹5L), and Tarun (up to ₹10L) categories.",
+			highlight: "PMMY & MSME Credit Linked",
+			interestRate: "Competitive Govt Scheme Rates",
+			maxTenure: "Up to 5 Years",
+			documents: [
+				"Udyam MSME Certificate",
+				"Project Report / Business Outline",
+				"KYC & Address Proof",
+				"Current Account Statements"
+			],
+			keyFeatures: [
+				"No collateral required under Govt Credit Guarantee",
+				"Subsidized processing charges",
+				"Empowering local micro-enterprises"
+			]
+		},
+		{
+			id: "mortgage-loan",
+			title: "Mortgage Loan (LAP)",
+			badge: "High Loan Amount",
+			icon: "Building2",
+			description: "Loan Against Property (LAP) allowing you to monetize residential or commercial property equity for high-value business expansion or family obligations.",
+			highlight: "Retain Ownership • Maximum Funding",
+			interestRate: "Starting 9.00% p.a.*",
+			maxTenure: "Up to 15 - 20 Years",
+			documents: [
+				"Original Title Deed & Parchas",
+				"Khajna / Property Tax Receipts",
+				"Applicant Income Proofs",
+				"Sanction Plan Copy"
+			],
+			keyFeatures: [
+				"Substantially lower interest than personal loans",
+				"Higher sanction limits up to ₹5+ Crores",
+				"Continue living/working in the property"
+			]
+		},
+		{
+			id: "car-loan",
+			title: "Car & Vehicle Loan",
+			badge: "Instant Approval",
+			icon: "Car",
+			description: "Attractive vehicle loans for brand new cars, pre-owned certified vehicles, or commercial transport fleets with competitive bank financing.",
+			highlight: "Up to 90-100% On-Road Funding*",
+			interestRate: "Starting 8.75% p.a.*",
+			maxTenure: "Up to 7 Years",
+			documents: [
+				"Car Proforma Invoice",
+				"Salary / Business Proof",
+				"KYC Identification",
+				"6 Months Bank Statement"
+			],
+			keyFeatures: [
+				"Quick sanction letter",
+				"Special tie-ups with leading automobile dealerships",
+				"Part-prepayment flexibility"
+			]
+		},
+		{
+			id: "gold-loan",
+			title: "Gold Loan Etc.",
+			badge: "Instant Same-Day Cash",
+			icon: "Coins",
+			description: "Immediate liquidity against your gold jewelry or assets deposited safely in government and authorized bank lockers with maximum per-gram valuation.",
+			highlight: "Instant 30-Minute Disbursement",
+			interestRate: "Starting 7.90% p.a.*",
+			maxTenure: "Flexible from 3 Months to 3 Years",
+			documents: ["KYC (Aadhaar / Voter ID / PAN)", "Gold Jewelry Items for Appraisal"],
+			keyFeatures: [
+				"Zero CIBIL score barrier",
+				"Maximum safety inside bank vaults",
+				"Bullet repayment or monthly interest only"
+			]
+		}
+	],
+	gallery: [
+		{
+			id: 1,
+			image: visitingCardImg,
+			title: "Official Consultant Business Card",
+			subtitle: "Soumitra Roy, Consultant - Roy Loan Consultancy",
+			category: "Credentials",
+			badge: "Official Card",
+			caption: "Certified consultancy card detailing services: Personal, Mortgage, Business, MSME Mudra, Car, Home, and Gold Loans."
+		},
+		{
+			id: 2,
+			image: consultationImg,
+			title: "Client Consultation & Advisory",
+			subtitle: "In-Person Loan Guidance at Narendrapur Office",
+			category: "Advisory Desk",
+			badge: "Customer First",
+			caption: "Direct consultation session evaluating customer loan eligibility, bank selection, and interest rate optimization."
+		},
+		{
+			id: 3,
+			image: exteriorBoardImg,
+			title: "Main Office Front & Services Display",
+			subtitle: "Rathtala Narendrapur Branch",
+			category: "Office Facade",
+			badge: "Govt Banks Approved",
+			caption: "Exterior signage highlighting approvals across SBI, PNB, Union Bank, Bank of India, and Central Bank of India."
+		},
+		{
+			id: 4,
+			image: signboardGoldImg,
+			title: "Executive Branch Signage",
+			subtitle: "Roy Loan Consultancy - Soumitra Roy",
+			category: "Branding",
+			badge: "Verified Branch",
+			caption: "Prominent executive signage located directly on N. S. Bose Road, Narendrapur Rathtala, Kolkata - 700103."
+		},
+		{
+			id: 5,
+			image: advisoryDeskImg,
+			title: "Loan Documentation & Verification",
+			subtitle: "Dedicated Back-Office Processing",
+			category: "Operations",
+			badge: "Fast Track",
+			caption: "Scrutiny of financial profiles, tax returns, and KYC documents ensuring seamless, zero-rejection bank submissions."
+		},
+		{
+			id: 6,
+			image: infrastructureImg,
+			title: "Office Premises & Client Reception",
+			subtitle: "Secure & Modern Air-Conditioned Setup",
+			category: "Infrastructure",
+			badge: "CCTV Monitored",
+			caption: "Client meeting zone equipped with digital banking verification tools and 24x7 security monitoring for document safety."
+		},
+		{
+			id: 7,
+			image: facadeFullImg,
+			title: "Full Branch Exterior View",
+			subtitle: "Convenient Landmark at Rathtala More",
+			category: "Location",
+			badge: "Prime Location",
+			caption: "Easy-to-access street front on Netaji Subhash Chandra Bose Road, minutes away from Sonarpur and Garia."
+		},
+		{
+			id: 8,
+			image: officePanoramicImg,
+			title: "Office Consultation Zone",
+			subtitle: "Warm, Courteous Financial Atmosphere",
+			category: "Atmosphere",
+			badge: "Personalized Care",
+			caption: "Welcoming advisory environment where every client is treated with patience, privacy, and dedicated guidance."
+		}
+	],
+	whyChooseUs: [
+		{
+			title: "All Govt & PSU Bank Approvals",
+			description: "Direct liaison with State Bank of India, PNB, Union Bank, and Bank of India gives you access to genuine low-interest schemes.",
+			icon: "Building"
+		},
+		{
+			title: "Doorstep Document Collection",
+			description: "We pick up your paperwork from your home or office across Kolkata, saving your precious work hours.",
+			icon: "FileCheck"
+		},
+		{
+			title: "Zero Hidden Charges & 100% Transparency",
+			description: "No misleading terms. You are fully informed of processing fees, interest rates, and loan structures upfront.",
+			icon: "ShieldAlert"
+		},
+		{
+			title: "Overcoming CIBIL & Documentation Challenges",
+			description: "Experienced advisory to structure your file effectively even if you have past CIBIL issues or unconventional income sources.",
+			icon: "Sparkles"
+		}
+	],
+	loanProcess: [
+		{
+			step: "01",
+			title: "Free Eligibility Assessment",
+			desc: "Call or visit Soumitra Roy at our Narendrapur Rathtala office. We analyze your income, existing EMIs, and funding requirement."
+		},
+		{
+			step: "02",
+			title: "Bank Matching & Rate Comparison",
+			desc: "We compare current interest rates across SBI, PNB, Union Bank, and top private banks to pick the lowest EMI option for you."
+		},
+		{
+			step: "03",
+			title: "Hassle-Free File Preparation",
+			desc: "We assemble your complete documentation file, ensure compliance with bank checklists, and submit directly to the branch manager."
+		},
+		{
+			step: "04",
+			title: "Sanction & Direct Disbursement",
+			desc: "Fast legal/technical clearances and prompt sanction letter generation, with funds disbursed directly to your bank account."
+		}
+	],
+	faq: [
+		{
+			q: "What types of loans does Roy Loan Consultancy handle?",
+			a: "We assist with Personal Loans, Home Loans, Business Loans, MSME Mudra Loans, Mortgage Loans (LAP), Car Loans, and Gold Loans across government and private banks."
+		},
+		{
+			q: "Where is the office located and can I walk in directly?",
+			a: "Yes! Our office is located at Narendrapur Rathtala, Sonarpur, Kolkata - 700103 on N. S. Bose Road. You can walk in between 10:00 AM and 8:00 PM Monday through Saturday, or call +91 9432957459 to schedule an appointment."
+		},
+		{
+			q: "Can you help if I am self-employed or run a small shop?",
+			a: "Absolutely. We specialize in Business Loans and MSME Mudra Loans for local shopkeepers, traders, contractors, and entrepreneurs with or without formal audited balance sheets."
+		},
+		{
+			q: "How long does a loan sanction typically take?",
+			a: "Personal and Gold Loans can be processed within 24 to 48 hours. Home, Mortgage, and Business Loans usually take between 4 to 7 working days depending on property and bank documentation."
+		}
+	]
+};
+
+//# sourceMappingURL=data:application/json;base64,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UCxPQUFPO0dBQ1AsVUFBVTtHQUNWLFVBQVU7R0FDVixPQUFPO0dBQ1AsU0FBUztFQUNYO0VBQ0E7R0FDRSxJQUFJO0dBQ0osT0FBTztHQUNQLE9BQU87R0FDUCxVQUFVO0dBQ1YsVUFBVTtHQUNWLE9BQU87R0FDUCxTQUFTO0VBQ1g7RUFDQTtHQUNFLElBQUk7R0FDSixPQUFPO0dBQ1AsT0FBTztHQUNQLFVBQVU7R0FDVixVQUFVO0dBQ1YsT0FBTztHQUNQLFNBQVM7RUFDWDtFQUNBO0dBQ0UsSUFBSTtHQUNKLE9BQU87R0FDUCxPQUFPO0dBQ1AsVUFBVTtHQUNWLFVBQVU7R0FDVixPQUFPO0dBQ1AsU0FBUztFQUNYO0NBQ0Y7Q0FFQSxhQUFhO0VBQ1g7R0FDRSxPQUFPO0dBQ1AsYUFBYTtHQUNiLE1BQU07RUFDUjtFQUNBO0dBQ0UsT0FBTztHQUNQLGFBQWE7R0FDYixNQUFNO0VBQ1I7RUFDQTtHQUNFLE9BQU87R0FDUCxhQUFhO0dBQ2IsTUFBTTtFQUNSO0VBQ0E7R0FDRSxPQUFPO0dBQ1AsYUFBYTtHQUNiLE1BQU07RUFDUjtDQUNGO0NBRUEsYUFBYTtFQUNYO0dBQ0UsTUFBTTtHQUNOLE9BQU87R0FDUCxNQUFNO0VBQ1I7RUFDQTtHQUNFLE1BQU07R0FDTixPQUFPO0dBQ1AsTUFBTTtFQUNSO0VBQ0E7R0FDRSxNQUFNO0dBQ04sT0FBTztHQUNQLE1BQU07RUFDUjtFQUNBO0dBQ0UsTUFBTTtHQUNOLE9BQU87R0FDUCxNQUFNO0VBQ1I7Q0FDRjtDQUVBLEtBQUs7RUFDSDtHQUNFLEdBQUc7R0FDSCxHQUFHO0VBQ0w7RUFDQTtHQUNFLEdBQUc7R0FDSCxHQUFHO0VBQ0w7RUFDQTtHQUNFLEdBQUc7R0FDSCxHQUFHO0VBQ0w7RUFDQTtHQUNFLEdBQUc7R0FDSCxHQUFHO0VBQ0w7Q0FDRjtBQUNGIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbInNpdGVEYXRhLmpzIl0sInZlcnNpb24iOjMsInNvdXJjZXNDb250ZW50IjpbIi8vIFJlYWwgdmVyaWZpZWQgY2xpZW50IGRhdGEgZm9yIFJPWSBMT0FOIENPTlNVTFRBTkNZXG4vLyBGb3VuZGVyICYgQ29uc3VsdGFudDogU291bWl0cmEgUm95XG5cbmltcG9ydCB2aXNpdGluZ0NhcmRJbWcgZnJvbSAnLi4vYXNzZXRzL2ltYWdlcy9lZGl0ZWQvdmlzaXRpbmdfY2FyZF9vZmZpY2lhbC5qcGcnO1xuaW1wb3J0IGNvbnN1bHRhdGlvbkltZyBmcm9tICcuLi9hc3NldHMvaW1hZ2VzL2VkaXRlZC9jbGllbnRfY29uc3VsdGF0aW9uLmpwZyc7XG5pbXBvcnQgZXh0ZXJpb3JCb2FyZEltZyBmcm9tICcuLi9hc3NldHMvaW1hZ2VzL2VkaXRlZC9leHRlcmlvcl9ib2FyZF9mb2N1c2VkLmpwZyc7XG5pbXBvcnQgc2lnbmJvYXJkR29sZEltZyBmcm9tICcuLi9hc3NldHMvaW1hZ2VzL2VkaXRlZC9zaWduYm9hcmRfZ29sZF9ibGFjay5qcGcnO1xuaW1wb3J0IGFkdmlzb3J5RGVza0ltZyBmcm9tICcuLi9hc3NldHMvaW1hZ2VzL2VkaXRlZC9hZHZpc29yeV9zZXNzaW9uLmpwZyc7XG5pbXBvcnQgaW5mcmFzdHJ1Y3R1cmVJbWcgZnJvbSAnLi4vYXNzZXRzL2ltYWdlcy9lZGl0ZWQvb2ZmaWNlX2luZnJhc3RydWN0dXJlLmpwZyc7XG5pbXBvcnQgZmFjYWRlRnVsbEltZyBmcm9tICcuLi9hc3NldHMvaW1hZ2VzL2VkaXRlZC9mYWNhZGVfZnVsbC5qcGcnO1xuaW1wb3J0IG9mZmljZVBhbm9yYW1pY0ltZyBmcm9tICcuLi9hc3NldHMvaW1hZ2VzL2VkaXRlZC9vZmZpY2VfcGFub3JhbWljLmpwZyc7XG5cbmV4cG9ydCBjb25zdCBzaXRlRGF0YSA9IHtcbiAgY29tcGFueToge1xuICAgIG5hbWU6IFwiUm95IExvYW4gQ29uc3VsdGFuY3lcIixcbiAgICBjb25zdWx0YW50OiBcIlNvdW1pdHJhIFJveVwiLFxuICAgIHJvbGU6IFwiU2VuaW9yIExvYW4gJiBGaW5hbmNpYWwgQ29uc3VsdGFudFwiLFxuICAgIHRhZ2xpbmU6IFwiQWxsIEdvdmVybm1lbnQgQmFuayBMb2FucyBBdmFpbGFibGVcIixcbiAgICBzdWJ0aXRsZTogXCJGYXN0LCBUcmFuc3BhcmVudCAmIFJlbGlhYmxlIExvYW4gQWR2aXNvcnkgaW4gS29sa2F0YVwiLFxuICAgIGV4cGVyaWVuY2U6IFwiVHJ1c3RlZCBMb2NhbCBDb25zdWx0YW5jeVwiLFxuICAgIHJlZ2lzdGVyZWRPZmZpY2U6IFwiTmFyZW5kcmFwdXIgUmF0aHRhbGEsIFNvbmFycHVyLCBLb2xrYXRhIC0gNzAwMTAzXCIsXG4gICAgd2Vic2l0ZTogXCJ3d3cucm95bG9hbmNvbnN1bHRhbmN5LmluXCIsXG4gIH0sXG5cbiAgY29udGFjdDoge1xuICAgIHByaW1hcnlQaG9uZTogXCI5NDMyOTU3NDU5XCIsXG4gICAgc2Vjb25kYXJ5UGhvbmU6IFwiODI0MDYxNjkxM1wiLFxuICAgIHRlcnRpYXJ5UGhvbmU6IFwiNzI3ODkxNzE3NlwiLFxuICAgIHByaW1hcnlQaG9uZURpc3BsYXk6IFwiKzkxIDk0MzI5IDU3NDU5XCIsXG4gICAgc2Vjb25kYXJ5UGhvbmVEaXNwbGF5OiBcIis5MSA4MjQwNiAxNjkxM1wiLFxuICAgIHRlcnRpYXJ5UGhvbmVEaXNwbGF5OiBcIis5MSA3Mjc4OSAxNzE3NlwiLFxuICAgIHdoYXRzYXBwOiBcIjk0MzI5NTc0NTlcIixcbiAgICB3aGF0c2FwcERpc3BsYXk6IFwiKzkxIDk0MzI5IDU3NDU5XCIsXG4gICAgZW1haWw6IFwicnNvdW1pdHJhNzJAZ21haWwuY29tXCIsXG4gICAgZm9ybWF0dGVkQWRkcmVzczogXCJOLiBTLiBCb3NlIFJvYWQsIE5hcmVuZHJhcHVyIFJhdGh0YWxhLCBTb25hcnB1ciwgS29sa2F0YSwgU291dGggMjQgUGFyZ2FuYXMsIFdlc3QgQmVuZ2FsIC0gNzAwMTAzXCIsXG4gICAgc2hvcnRBZGRyZXNzOiBcIk5hcmVuZHJhcHVyIFJhdGh0YWxhLCBTb25hcnB1ciwgS29sa2F0YSAtIDcwMDEwM1wiLFxuICAgIGdvb2dsZU1hcFVybDogXCJodHRwczovL21hcHMuYXBwLmdvby5nbC9qRmJrUmplYUp2aGc1VUV4NlwiLFxuICB9LFxuXG4gIHRpbWluZ3M6IHtcbiAgICBkYXlzOiBcIk1vbmRheSDigJMgU2F0dXJkYXlcIixcbiAgICBob3VyczogXCIxMDowMCBBTSDigJMgODowMCBQTVwiLFxuICAgIHN1bmRheTogXCJPcGVuIGZvciBVcmdlbnQgQXBwb2ludG1lbnRzXCIsXG4gIH0sXG5cbiAgbmF2aWdhdGlvbjogW1xuICAgIHsgbmFtZTogXCJIb21lXCIsIGhyZWY6IFwiI2hvbWVcIiB9LFxuICAgIHsgbmFtZTogXCJBYm91dCBVc1wiLCBocmVmOiBcIiNhYm91dFwiIH0sXG4gICAgeyBuYW1lOiBcIkxvYW4gU2VydmljZXNcIiwgaHJlZjogXCIjc2VydmljZXNcIiB9LFxuICAgIHsgbmFtZTogXCJPZmZpY2UgJiBHYWxsZXJ5XCIsIGhyZWY6IFwiI2dhbGxlcnlcIiB9LFxuICAgIHsgbmFtZTogXCJDb250YWN0XCIsIGhyZWY6IFwiI2NvbnRhY3RcIiB9LFxuICBdLFxuXG4gIHN0YXRzOiBbXG4gICAgeyBsYWJlbDogXCJCYW5rIExvYW4gVHlwZXNcIiwgdmFsdWU6IFwiNytcIiB9LFxuICAgIHsgbGFiZWw6IFwiUGFydG5lciBQU1UgJiBQdnQgQmFua3NcIiwgdmFsdWU6IFwiMTUrXCIgfSxcbiAgICB7IGxhYmVsOiBcIkxvYW4gQXBwcm92YWwgUmF0ZVwiLCB2YWx1ZTogXCI5OCUqXCIgfSxcbiAgICB7IGxhYmVsOiBcIkNvbnN1bHRhdGlvbiBGZWVcIiwgdmFsdWU6IFwiMTAwJSBGcmVlXCIgfSxcbiAgXSxcblxuICBwYXJ0bmVyQmFua3M6IFtcbiAgICB7IG5hbWU6IFwiU3RhdGUgQmFuayBvZiBJbmRpYVwiLCBzaG9ydDogXCJTQklcIiwgdHlwZTogXCJHb3Zlcm5tZW50IEJhbmtcIiB9LFxuICAgIHsgbmFtZTogXCJQdW5qYWIgTmF0aW9uYWwgQmFua1wiLCBzaG9ydDogXCJQTkJcIiwgdHlwZTogXCJHb3Zlcm5tZW50IEJhbmtcIiB9LFxuICAgIHsgbmFtZTogXCJVbmlvbiBCYW5rIG9mIEluZGlhXCIsIHNob3J0OiBcIlVCSVwiLCB0eXBlOiBcIkdvdmVybm1lbnQgQmFua1wiIH0sXG4gICAgeyBuYW1lOiBcIkJhbmsgb2YgSW5kaWFcIiwgc2hvcnQ6IFwiQk9JXCIsIHR5cGU6IFwiR292ZXJubWVudCBCYW5rXCIgfSxcbiAgICB7IG5hbWU6IFwiQ2VudHJhbCBCYW5rIG9mIEluZGlhXCIsIHNob3J0OiBcIkNCSVwiLCB0eXBlOiBcIkdvdmVybm1lbnQgQmFua1wiIH0sXG4gICAgeyBuYW1lOiBcIkJhbmsgb2YgQmFyb2RhXCIsIHNob3J0OiBcIkJPQlwiLCB0eXBlOiBcIkdvdmVybm1lbnQgQmFua1wiIH0sXG4gICAgeyBuYW1lOiBcIkhERkMgQmFua1wiLCBzaG9ydDogXCJIREZDXCIsIHR5cGU6IFwiTGVhZGluZyBQcml2YXRlIEJhbmtcIiB9LFxuICAgIHsgbmFtZTogXCJJQ0lDSSBCYW5rXCIsIHNob3J0OiBcIklDSUNJXCIsIHR5cGU6IFwiTGVhZGluZyBQcml2YXRlIEJhbmtcIiB9LFxuICAgIHsgbmFtZTogXCJBeGlzIEJhbmtcIiwgc2hvcnQ6IFwiQVhJU1wiLCB0eXBlOiBcIkxlYWRpbmcgUHJpdmF0ZSBCYW5rXCIgfSxcbiAgXSxcblxuICBzZXJ2aWNlczogW1xuICAgIHtcbiAgICAgIGlkOiBcInBlcnNvbmFsLWxvYW5cIixcbiAgICAgIHRpdGxlOiBcIlBlcnNvbmFsIExvYW5cIixcbiAgICAgIGJhZGdlOiBcIlF1aWNrIERpc2J1cnNlbWVudFwiLFxuICAgICAgaWNvbjogXCJVc2VyQ2hlY2tcIixcbiAgICAgIGRlc2NyaXB0aW9uOiBcIkZhc3QgY29sbGF0ZXJhbC1mcmVlIHBlcnNvbmFsIGxvYW5zIGZvciBzYWxhcmllZCBlbXBsb3llZXMgYW5kIHNlbGYtZW1wbG95ZWQgaW5kaXZpZHVhbHMgdG8gZnVuZCBtZWRpY2FsIG5lZWRzLCB3ZWRkaW5ncywgdHJhdmVsLCBvciBkZWJ0IGNvbnNvbGlkYXRpb24uXCIsXG4gICAgICBoaWdobGlnaHQ6IFwiVW5zZWN1cmVkIOKAoiBNaW5pbWFsIFBhcGVyd29ya1wiLFxuICAgICAgaW50ZXJlc3RSYXRlOiBcIlN0YXJ0aW5nIDEwLjI1JSBwLmEuKlwiLFxuICAgICAgbWF4VGVudXJlOiBcIlVwIHRvIDUgLSA3IFllYXJzXCIsXG4gICAgICBkb2N1bWVudHM6IFtcIkxhc3QgMyBNb250aHMgU2FsYXJ5IFNsaXBzXCIsIFwiNiBNb250aHMgQmFuayBTdGF0ZW1lbnRcIiwgXCJQQU4gJiBBYWRoYWFyIENhcmRcIiwgXCJGb3JtIDE2IC8gSVRSXCJdLFxuICAgICAga2V5RmVhdHVyZXM6IFtcIlplcm8gY29sbGF0ZXJhbCByZXF1aXJlbWVudFwiLCBcIkFwcHJvdmFsIGluIDI0LTQ4IGhvdXJzKlwiLCBcIkZsZXhpYmxlIHJlcGF5bWVudCBvcHRpb25zXCJdLFxuICAgIH0sXG4gICAge1xuICAgICAgaWQ6IFwiaG9tZS1sb2FuXCIsXG4gICAgICB0aXRsZTogXCJIb21lIExvYW5cIixcbiAgICAgIGJhZGdlOiBcIkxvd2VzdCBJbnRlcmVzdCBSYXRlc1wiLFxuICAgICAgaWNvbjogXCJIb21lXCIsXG4gICAgICBkZXNjcmlwdGlvbjogXCJBZmZvcmRhYmxlIGhvbWUgbG9hbnMgZm9yIHJlYWR5LXRvLW1vdmUgZmxhdHMsIHVuZGVyLWNvbnN0cnVjdGlvbiBhcGFydG1lbnRzLCBzZWxmLWNvbnN0cnVjdGlvbiBvbiBwbG90cywgcmVub3ZhdGlvbiwgYW5kIGJhbGFuY2UgdHJhbnNmZXJzIGZyb20gb3RoZXIgYmFua3MuXCIsXG4gICAgICBoaWdobGlnaHQ6IFwiR292ZXJubWVudCBTdWJzaWR5ICYgTG93IFJhdGVzXCIsXG4gICAgICBpbnRlcmVzdFJhdGU6IFwiU3RhcnRpbmcgOC40MCUgcC5hLipcIixcbiAgICAgIG1heFRlbnVyZTogXCJVcCB0byAzMCBZZWFyc1wiLFxuICAgICAgZG9jdW1lbnRzOiBbXCJQcm9wZXJ0eSBDaGFpbiBvZiBUaXRsZVwiLCBcIlNhbmN0aW9uZWQgQnVpbGRpbmcgUGxhblwiLCBcIkluY29tZSBEb2N1bWVudHMgLyBJVFJcIiwgXCJLWUMgRG9jdW1lbnRzXCJdLFxuICAgICAga2V5RmVhdHVyZXM6IFtcIkhpZ2hlc3QgbG9hbi10by12YWx1ZSByYXRpb1wiLCBcIlRheCBzYXZpbmdzIHVuZGVyIFNlYyA4MEMgJiAyNEJcIiwgXCJTbW9vdGggbGVnYWwgJiB2YWx1YXRpb24gc3VwcG9ydFwiXSxcbiAgICB9LFxuICAgIHtcbiAgICAgIGlkOiBcImJ1c2luZXNzLWxvYW5cIixcbiAgICAgIHRpdGxlOiBcIkJ1c2luZXNzIExvYW5cIixcbiAgICAgIGJhZGdlOiBcIldvcmtpbmcgQ2FwaXRhbCAmIEdyb3d0aFwiLFxuICAgICAgaWNvbjogXCJCcmllZmNhc2VcIixcbiAgICAgIGRlc2NyaXB0aW9uOiBcIkRlZGljYXRlZCBmaW5hbmNpbmcgZm9yIHJldGFpbCBzaG9wIG93bmVycywgdHJhZGVycywgbWFudWZhY3R1cmVycywgY29udHJhY3RvcnMsIGFuZCBzZXJ2aWNlIHByb3ZpZGVycyBsb29raW5nIHRvIGV4cGFuZCBvcGVyYXRpb25zIG9yIG1hbmFnZSBjYXNoIGZsb3dzLlwiLFxuICAgICAgaGlnaGxpZ2h0OiBcIkN1c3RvbWl6ZWQgZm9yIFNtYWxsICYgTWlkIEJ1c2luZXNzXCIsXG4gICAgICBpbnRlcmVzdFJhdGU6IFwiU3RhcnRpbmcgMTEuNTAlIHAuYS4qXCIsXG4gICAgICBtYXhUZW51cmU6IFwiVXAgdG8gNSBZZWFyc1wiLFxuICAgICAgZG9jdW1lbnRzOiBbXCIyLTMgWWVhcnMgSVRSIHdpdGggQ29tcHV0YXRpb25cIiwgXCJHU1QgUmV0dXJucyAoMTIgTW9udGhzKVwiLCBcIkJhbmsgU3RhdGVtZW50cyAoMSBZZWFyKVwiLCBcIkJ1c2luZXNzIFJlZ2lzdHJhdGlvbiAvIFRyYWRlIExpY2Vuc2VcIl0sXG4gICAgICBrZXlGZWF0dXJlczogW1wiTm8gYXNzZXQgYmxvY2thZ2UgcmVxdWlyZWQgZm9yIHVuc2VjdXJlZCBvcHRpb25zXCIsIFwiRmFzdCB3b3JraW5nIGNhcGl0YWwgc2FuY3Rpb25zXCIsIFwiT3ZlcmRyYWZ0IChPRCkgJiBUZXJtIGxvYW4gb3B0aW9uc1wiXSxcbiAgICB9LFxuICAgIHtcbiAgICAgIGlkOiBcIm1zbWUtbXVkcmEtbG9hblwiLFxuICAgICAgdGl0bGU6IFwiTVNNRSBNdWRyYSBMb2FuXCIsXG4gICAgICBiYWRnZTogXCJHb3Z0LiBTdXBwb3J0ZWQgU2NoZW1lc1wiLFxuICAgICAgaWNvbjogXCJBd2FyZFwiLFxuICAgICAgZGVzY3JpcHRpb246IFwiU3BlY2lhbGl6ZWQgYXNzaXN0YW5jZSBmb3IgUHJpbWUgTWluaXN0ZXIgTXVkcmEgWW9qYW5hIChQTU1ZKSBsb2FucyBjb3ZlcmluZyBTaGlzaHUgKHVwIHRvIOKCuTUwayksIEtpc2hvciAodXAgdG8g4oK5NUwpLCBhbmQgVGFydW4gKHVwIHRvIOKCuTEwTCkgY2F0ZWdvcmllcy5cIixcbiAgICAgIGhpZ2hsaWdodDogXCJQTU1ZICYgTVNNRSBDcmVkaXQgTGlua2VkXCIsXG4gICAgICBpbnRlcmVzdFJhdGU6IFwiQ29tcGV0aXRpdmUgR292dCBTY2hlbWUgUmF0ZXNcIixcbiAgICAgIG1heFRlbnVyZTogXCJVcCB0byA1IFllYXJzXCIsXG4gICAgICBkb2N1bWVudHM6IFtcIlVkeWFtIE1TTUUgQ2VydGlmaWNhdGVcIiwgXCJQcm9qZWN0IFJlcG9ydCAvIEJ1c2luZXNzIE91dGxpbmVcIiwgXCJLWUMgJiBBZGRyZXNzIFByb29mXCIsIFwiQ3VycmVudCBBY2NvdW50IFN0YXRlbWVudHNcIl0sXG4gICAgICBrZXlGZWF0dXJlczogW1wiTm8gY29sbGF0ZXJhbCByZXF1aXJlZCB1bmRlciBHb3Z0IENyZWRpdCBHdWFyYW50ZWVcIiwgXCJTdWJzaWRpemVkIHByb2Nlc3NpbmcgY2hhcmdlc1wiLCBcIkVtcG93ZXJpbmcgbG9jYWwgbWljcm8tZW50ZXJwcmlzZXNcIl0sXG4gICAgfSxcbiAgICB7XG4gICAgICBpZDogXCJtb3J0Z2FnZS1sb2FuXCIsXG4gICAgICB0aXRsZTogXCJNb3J0Z2FnZSBMb2FuIChMQVApXCIsXG4gICAgICBiYWRnZTogXCJIaWdoIExvYW4gQW1vdW50XCIsXG4gICAgICBpY29uOiBcIkJ1aWxkaW5nMlwiLFxuICAgICAgZGVzY3JpcHRpb246IFwiTG9hbiBBZ2FpbnN0IFByb3BlcnR5IChMQVApIGFsbG93aW5nIHlvdSB0byBtb25ldGl6ZSByZXNpZGVudGlhbCBvciBjb21tZXJjaWFsIHByb3BlcnR5IGVxdWl0eSBmb3IgaGlnaC12YWx1ZSBidXNpbmVzcyBleHBhbnNpb24gb3IgZmFtaWx5IG9ibGlnYXRpb25zLlwiLFxuICAgICAgaGlnaGxpZ2h0OiBcIlJldGFpbiBPd25lcnNoaXAg4oCiIE1heGltdW0gRnVuZGluZ1wiLFxuICAgICAgaW50ZXJlc3RSYXRlOiBcIlN0YXJ0aW5nIDkuMDAlIHAuYS4qXCIsXG4gICAgICBtYXhUZW51cmU6IFwiVXAgdG8gMTUgLSAyMCBZZWFyc1wiLFxuICAgICAgZG9jdW1lbnRzOiBbXCJPcmlnaW5hbCBUaXRsZSBEZWVkICYgUGFyY2hhc1wiLCBcIktoYWpuYSAvIFByb3BlcnR5IFRheCBSZWNlaXB0c1wiLCBcIkFwcGxpY2FudCBJbmNvbWUgUHJvb2ZzXCIsIFwiU2FuY3Rpb24gUGxhbiBDb3B5XCJdLFxuICAgICAga2V5RmVhdHVyZXM6IFtcIlN1YnN0YW50aWFsbHkgbG93ZXIgaW50ZXJlc3QgdGhhbiBwZXJzb25hbCBsb2Fuc1wiLCBcIkhpZ2hlciBzYW5jdGlvbiBsaW1pdHMgdXAgdG8g4oK5NSsgQ3JvcmVzXCIsIFwiQ29udGludWUgbGl2aW5nL3dvcmtpbmcgaW4gdGhlIHByb3BlcnR5XCJdLFxuICAgIH0sXG4gICAge1xuICAgICAgaWQ6IFwiY2FyLWxvYW5cIixcbiAgICAgIHRpdGxlOiBcIkNhciAmIFZlaGljbGUgTG9hblwiLFxuICAgICAgYmFkZ2U6IFwiSW5zdGFudCBBcHByb3ZhbFwiLFxuICAgICAgaWNvbjogXCJDYXJcIixcbiAgICAgIGRlc2NyaXB0aW9uOiBcIkF0dHJhY3RpdmUgdmVoaWNsZSBsb2FucyBmb3IgYnJhbmQgbmV3IGNhcnMsIHByZS1vd25lZCBjZXJ0aWZpZWQgdmVoaWNsZXMsIG9yIGNvbW1lcmNpYWwgdHJhbnNwb3J0IGZsZWV0cyB3aXRoIGNvbXBldGl0aXZlIGJhbmsgZmluYW5jaW5nLlwiLFxuICAgICAgaGlnaGxpZ2h0OiBcIlVwIHRvIDkwLTEwMCUgT24tUm9hZCBGdW5kaW5nKlwiLFxuICAgICAgaW50ZXJlc3RSYXRlOiBcIlN0YXJ0aW5nIDguNzUlIHAuYS4qXCIsXG4gICAgICBtYXhUZW51cmU6IFwiVXAgdG8gNyBZZWFyc1wiLFxuICAgICAgZG9jdW1lbnRzOiBbXCJDYXIgUHJvZm9ybWEgSW52b2ljZVwiLCBcIlNhbGFyeSAvIEJ1c2luZXNzIFByb29mXCIsIFwiS1lDIElkZW50aWZpY2F0aW9uXCIsIFwiNiBNb250aHMgQmFuayBTdGF0ZW1lbnRcIl0sXG4gICAgICBrZXlGZWF0dXJlczogW1wiUXVpY2sgc2FuY3Rpb24gbGV0dGVyXCIsIFwiU3BlY2lhbCB0aWUtdXBzIHdpdGggbGVhZGluZyBhdXRvbW9iaWxlIGRlYWxlcnNoaXBzXCIsIFwiUGFydC1wcmVwYXltZW50IGZsZXhpYmlsaXR5XCJdLFxuICAgIH0sXG4gICAge1xuICAgICAgaWQ6IFwiZ29sZC1sb2FuXCIsXG4gICAgICB0aXRsZTogXCJHb2xkIExvYW4gRXRjLlwiLFxuICAgICAgYmFkZ2U6IFwiSW5zdGFudCBTYW1lLURheSBDYXNoXCIsXG4gICAgICBpY29uOiBcIkNvaW5zXCIsXG4gICAgICBkZXNjcmlwdGlvbjogXCJJbW1lZGlhdGUgbGlxdWlkaXR5IGFnYWluc3QgeW91ciBnb2xkIGpld2Vscnkgb3IgYXNzZXRzIGRlcG9zaXRlZCBzYWZlbHkgaW4gZ292ZXJubWVudCBhbmQgYXV0aG9yaXplZCBiYW5rIGxvY2tlcnMgd2l0aCBtYXhpbXVtIHBlci1ncmFtIHZhbHVhdGlvbi5cIixcbiAgICAgIGhpZ2hsaWdodDogXCJJbnN0YW50IDMwLU1pbnV0ZSBEaXNidXJzZW1lbnRcIixcbiAgICAgIGludGVyZXN0UmF0ZTogXCJTdGFydGluZyA3LjkwJSBwLmEuKlwiLFxuICAgICAgbWF4VGVudXJlOiBcIkZsZXhpYmxlIGZyb20gMyBNb250aHMgdG8gMyBZZWFyc1wiLFxuICAgICAgZG9jdW1lbnRzOiBbXCJLWUMgKEFhZGhhYXIgLyBWb3RlciBJRCAvIFBBTilcIiwgXCJHb2xkIEpld2VscnkgSXRlbXMgZm9yIEFwcHJhaXNhbFwiXSxcbiAgICAgIGtleUZlYXR1cmVzOiBbXCJaZXJvIENJQklMIHNjb3JlIGJhcnJpZXJcIiwgXCJNYXhpbXVtIHNhZmV0eSBpbnNpZGUgYmFuayB2YXVsdHNcIiwgXCJCdWxsZXQgcmVwYXltZW50IG9yIG1vbnRobHkgaW50ZXJlc3Qgb25seVwiXSxcbiAgICB9LFxuICBdLFxuXG4gIGdhbGxlcnk6IFtcbiAgICB7XG4gICAgICBpZDogMSxcbiAgICAgIGltYWdlOiB2aXNpdGluZ0NhcmRJbWcsXG4gICAgICB0aXRsZTogXCJPZmZpY2lhbCBDb25zdWx0YW50IEJ1c2luZXNzIENhcmRcIixcbiAgICAgIHN1YnRpdGxlOiBcIlNvdW1pdHJhIFJveSwgQ29uc3VsdGFudCAtIFJveSBMb2FuIENvbnN1bHRhbmN5XCIsXG4gICAgICBjYXRlZ29yeTogXCJDcmVkZW50aWFsc1wiLFxuICAgICAgYmFkZ2U6IFwiT2ZmaWNpYWwgQ2FyZFwiLFxuICAgICAgY2FwdGlvbjogXCJDZXJ0aWZpZWQgY29uc3VsdGFuY3kgY2FyZCBkZXRhaWxpbmcgc2VydmljZXM6IFBlcnNvbmFsLCBNb3J0Z2FnZSwgQnVzaW5lc3MsIE1TTUUgTXVkcmEsIENhciwgSG9tZSwgYW5kIEdvbGQgTG9hbnMuXCIsXG4gICAgfSxcbiAgICB7XG4gICAgICBpZDogMixcbiAgICAgIGltYWdlOiBjb25zdWx0YXRpb25JbWcsXG4gICAgICB0aXRsZTogXCJDbGllbnQgQ29uc3VsdGF0aW9uICYgQWR2aXNvcnlcIixcbiAgICAgIHN1YnRpdGxlOiBcIkluLVBlcnNvbiBMb2FuIEd1aWRhbmNlIGF0IE5hcmVuZHJhcHVyIE9mZmljZVwiLFxuICAgICAgY2F0ZWdvcnk6IFwiQWR2aXNvcnkgRGVza1wiLFxuICAgICAgYmFkZ2U6IFwiQ3VzdG9tZXIgRmlyc3RcIixcbiAgICAgIGNhcHRpb246IFwiRGlyZWN0IGNvbnN1bHRhdGlvbiBzZXNzaW9uIGV2YWx1YXRpbmcgY3VzdG9tZXIgbG9hbiBlbGlnaWJpbGl0eSwgYmFuayBzZWxlY3Rpb24sIGFuZCBpbnRlcmVzdCByYXRlIG9wdGltaXphdGlvbi5cIixcbiAgICB9LFxuICAgIHtcbiAgICAgIGlkOiAzLFxuICAgICAgaW1hZ2U6IGV4dGVyaW9yQm9hcmRJbWcsXG4gICAgICB0aXRsZTogXCJNYWluIE9mZmljZSBGcm9udCAmIFNlcnZpY2VzIERpc3BsYXlcIixcbiAgICAgIHN1YnRpdGxlOiBcIlJhdGh0YWxhIE5hcmVuZHJhcHVyIEJyYW5jaFwiLFxuICAgICAgY2F0ZWdvcnk6IFwiT2ZmaWNlIEZhY2FkZVwiLFxuICAgICAgYmFkZ2U6IFwiR292dCBCYW5rcyBBcHByb3ZlZFwiLFxuICAgICAgY2FwdGlvbjogXCJFeHRlcmlvciBzaWduYWdlIGhpZ2hsaWdodGluZyBhcHByb3ZhbHMgYWNyb3NzIFNCSSwgUE5CLCBVbmlvbiBCYW5rLCBCYW5rIG9mIEluZGlhLCBhbmQgQ2VudHJhbCBCYW5rIG9mIEluZGlhLlwiLFxuICAgIH0sXG4gICAge1xuICAgICAgaWQ6IDQsXG4gICAgICBpbWFnZTogc2lnbmJvYXJkR29sZEltZyxcbiAgICAgIHRpdGxlOiBcIkV4ZWN1dGl2ZSBCcmFuY2ggU2lnbmFnZVwiLFxuICAgICAgc3VidGl0bGU6IFwiUm95IExvYW4gQ29uc3VsdGFuY3kgLSBTb3VtaXRyYSBSb3lcIixcbiAgICAgIGNhdGVnb3J5OiBcIkJyYW5kaW5nXCIsXG4gICAgICBiYWRnZTogXCJWZXJpZmllZCBCcmFuY2hcIixcbiAgICAgIGNhcHRpb246IFwiUHJvbWluZW50IGV4ZWN1dGl2ZSBzaWduYWdlIGxvY2F0ZWQgZGlyZWN0bHkgb24gTi4gUy4gQm9zZSBSb2FkLCBOYXJlbmRyYXB1ciBSYXRodGFsYSwgS29sa2F0YSAtIDcwMDEwMy5cIixcbiAgICB9LFxuICAgIHtcbiAgICAgIGlkOiA1LFxuICAgICAgaW1hZ2U6IGFkdmlzb3J5RGVza0ltZyxcbiAgICAgIHRpdGxlOiBcIkxvYW4gRG9jdW1lbnRhdGlvbiAmIFZlcmlmaWNhdGlvblwiLFxuICAgICAgc3VidGl0bGU6IFwiRGVkaWNhdGVkIEJhY2stT2ZmaWNlIFByb2Nlc3NpbmdcIixcbiAgICAgIGNhdGVnb3J5OiBcIk9wZXJhdGlvbnNcIixcbiAgICAgIGJhZGdlOiBcIkZhc3QgVHJhY2tcIixcbiAgICAgIGNhcHRpb246IFwiU2NydXRpbnkgb2YgZmluYW5jaWFsIHByb2ZpbGVzLCB0YXggcmV0dXJucywgYW5kIEtZQyBkb2N1bWVudHMgZW5zdXJpbmcgc2VhbWxlc3MsIHplcm8tcmVqZWN0aW9uIGJhbmsgc3VibWlzc2lvbnMuXCIsXG4gICAgfSxcbiAgICB7XG4gICAgICBpZDogNixcbiAgICAgIGltYWdlOiBpbmZyYXN0cnVjdHVyZUltZyxcbiAgICAgIHRpdGxlOiBcIk9mZmljZSBQcmVtaXNlcyAmIENsaWVudCBSZWNlcHRpb25cIixcbiAgICAgIHN1YnRpdGxlOiBcIlNlY3VyZSAmIE1vZGVybiBBaXItQ29uZGl0aW9uZWQgU2V0dXBcIixcbiAgICAgIGNhdGVnb3J5OiBcIkluZnJhc3RydWN0dXJlXCIsXG4gICAgICBiYWRnZTogXCJDQ1RWIE1vbml0b3JlZFwiLFxuICAgICAgY2FwdGlvbjogXCJDbGllbnQgbWVldGluZyB6b25lIGVxdWlwcGVkIHdpdGggZGlnaXRhbCBiYW5raW5nIHZlcmlmaWNhdGlvbiB0b29scyBhbmQgMjR4NyBzZWN1cml0eSBtb25pdG9yaW5nIGZvciBkb2N1bWVudCBzYWZldHkuXCIsXG4gICAgfSxcbiAgICB7XG4gICAgICBpZDogNyxcbiAgICAgIGltYWdlOiBmYWNhZGVGdWxsSW1nLFxuICAgICAgdGl0bGU6IFwiRnVsbCBCcmFuY2ggRXh0ZXJpb3IgVmlld1wiLFxuICAgICAgc3VidGl0bGU6IFwiQ29udmVuaWVudCBMYW5kbWFyayBhdCBSYXRodGFsYSBNb3JlXCIsXG4gICAgICBjYXRlZ29yeTogXCJMb2NhdGlvblwiLFxuICAgICAgYmFkZ2U6IFwiUHJpbWUgTG9jYXRpb25cIixcbiAgICAgIGNhcHRpb246IFwiRWFzeS10by1hY2Nlc3Mgc3RyZWV0IGZyb250IG9uIE5ldGFqaSBTdWJoYXNoIENoYW5kcmEgQm9zZSBSb2FkLCBtaW51dGVzIGF3YXkgZnJvbSBTb25hcnB1ciBhbmQgR2FyaWEuXCIsXG4gICAgfSxcbiAgICB7XG4gICAgICBpZDogOCxcbiAgICAgIGltYWdlOiBvZmZpY2VQYW5vcmFtaWNJbWcsXG4gICAgICB0aXRsZTogXCJPZmZpY2UgQ29uc3VsdGF0aW9uIFpvbmVcIixcbiAgICAgIHN1YnRpdGxlOiBcIldhcm0sIENvdXJ0ZW91cyBGaW5hbmNpYWwgQXRtb3NwaGVyZVwiLFxuICAgICAgY2F0ZWdvcnk6IFwiQXRtb3NwaGVyZVwiLFxuICAgICAgYmFkZ2U6IFwiUGVyc29uYWxpemVkIENhcmVcIixcbiAgICAgIGNhcHRpb246IFwiV2VsY29taW5nIGFkdmlzb3J5IGVudmlyb25tZW50IHdoZXJlIGV2ZXJ5IGNsaWVudCBpcyB0cmVhdGVkIHdpdGggcGF0aWVuY2UsIHByaXZhY3ksIGFuZCBkZWRpY2F0ZWQgZ3VpZGFuY2UuXCIsXG4gICAgfSxcbiAgXSxcblxuICB3aHlDaG9vc2VVczogW1xuICAgIHtcbiAgICAgIHRpdGxlOiBcIkFsbCBHb3Z0ICYgUFNVIEJhbmsgQXBwcm92YWxzXCIsXG4gICAgICBkZXNjcmlwdGlvbjogXCJEaXJlY3QgbGlhaXNvbiB3aXRoIFN0YXRlIEJhbmsgb2YgSW5kaWEsIFBOQiwgVW5pb24gQmFuaywgYW5kIEJhbmsgb2YgSW5kaWEgZ2l2ZXMgeW91IGFjY2VzcyB0byBnZW51aW5lIGxvdy1pbnRlcmVzdCBzY2hlbWVzLlwiLFxuICAgICAgaWNvbjogXCJCdWlsZGluZ1wiLFxuICAgIH0sXG4gICAge1xuICAgICAgdGl0bGU6IFwiRG9vcnN0ZXAgRG9jdW1lbnQgQ29sbGVjdGlvblwiLFxuICAgICAgZGVzY3JpcHRpb246IFwiV2UgcGljayB1cCB5b3VyIHBhcGVyd29yayBmcm9tIHlvdXIgaG9tZSBvciBvZmZpY2UgYWNyb3NzIEtvbGthdGEsIHNhdmluZyB5b3VyIHByZWNpb3VzIHdvcmsgaG91cnMuXCIsXG4gICAgICBpY29uOiBcIkZpbGVDaGVja1wiLFxuICAgIH0sXG4gICAge1xuICAgICAgdGl0bGU6IFwiWmVybyBIaWRkZW4gQ2hhcmdlcyAmIDEwMCUgVHJhbnNwYXJlbmN5XCIsXG4gICAgICBkZXNjcmlwdGlvbjogXCJObyBtaXNsZWFkaW5nIHRlcm1zLiBZb3UgYXJlIGZ1bGx5IGluZm9ybWVkIG9mIHByb2Nlc3NpbmcgZmVlcywgaW50ZXJlc3QgcmF0ZXMsIGFuZCBsb2FuIHN0cnVjdHVyZXMgdXBmcm9udC5cIixcbiAgICAgIGljb246IFwiU2hpZWxkQWxlcnRcIixcbiAgICB9LFxuICAgIHtcbiAgICAgIHRpdGxlOiBcIk92ZXJjb21pbmcgQ0lCSUwgJiBEb2N1bWVudGF0aW9uIENoYWxsZW5nZXNcIixcbiAgICAgIGRlc2NyaXB0aW9uOiBcIkV4cGVyaWVuY2VkIGFkdmlzb3J5IHRvIHN0cnVjdHVyZSB5b3VyIGZpbGUgZWZmZWN0aXZlbHkgZXZlbiBpZiB5b3UgaGF2ZSBwYXN0IENJQklMIGlzc3VlcyBvciB1bmNvbnZlbnRpb25hbCBpbmNvbWUgc291cmNlcy5cIixcbiAgICAgIGljb246IFwiU3BhcmtsZXNcIixcbiAgICB9LFxuICBdLFxuXG4gIGxvYW5Qcm9jZXNzOiBbXG4gICAge1xuICAgICAgc3RlcDogXCIwMVwiLFxuICAgICAgdGl0bGU6IFwiRnJlZSBFbGlnaWJpbGl0eSBBc3Nlc3NtZW50XCIsXG4gICAgICBkZXNjOiBcIkNhbGwgb3IgdmlzaXQgU291bWl0cmEgUm95IGF0IG91ciBOYXJlbmRyYXB1ciBSYXRodGFsYSBvZmZpY2UuIFdlIGFuYWx5emUgeW91ciBpbmNvbWUsIGV4aXN0aW5nIEVNSXMsIGFuZCBmdW5kaW5nIHJlcXVpcmVtZW50LlwiLFxuICAgIH0sXG4gICAge1xuICAgICAgc3RlcDogXCIwMlwiLFxuICAgICAgdGl0bGU6IFwiQmFuayBNYXRjaGluZyAmIFJhdGUgQ29tcGFyaXNvblwiLFxuICAgICAgZGVzYzogXCJXZSBjb21wYXJlIGN1cnJlbnQgaW50ZXJlc3QgcmF0ZXMgYWNyb3NzIFNCSSwgUE5CLCBVbmlvbiBCYW5rLCBhbmQgdG9wIHByaXZhdGUgYmFua3MgdG8gcGljayB0aGUgbG93ZXN0IEVNSSBvcHRpb24gZm9yIHlvdS5cIixcbiAgICB9LFxuICAgIHtcbiAgICAgIHN0ZXA6IFwiMDNcIixcbiAgICAgIHRpdGxlOiBcIkhhc3NsZS1GcmVlIEZpbGUgUHJlcGFyYXRpb25cIixcbiAgICAgIGRlc2M6IFwiV2UgYXNzZW1ibGUgeW91ciBjb21wbGV0ZSBkb2N1bWVudGF0aW9uIGZpbGUsIGVuc3VyZSBjb21wbGlhbmNlIHdpdGggYmFuayBjaGVja2xpc3RzLCBhbmQgc3VibWl0IGRpcmVjdGx5IHRvIHRoZSBicmFuY2ggbWFuYWdlci5cIixcbiAgICB9LFxuICAgIHtcbiAgICAgIHN0ZXA6IFwiMDRcIixcbiAgICAgIHRpdGxlOiBcIlNhbmN0aW9uICYgRGlyZWN0IERpc2J1cnNlbWVudFwiLFxuICAgICAgZGVzYzogXCJGYXN0IGxlZ2FsL3RlY2huaWNhbCBjbGVhcmFuY2VzIGFuZCBwcm9tcHQgc2FuY3Rpb24gbGV0dGVyIGdlbmVyYXRpb24sIHdpdGggZnVuZHMgZGlzYnVyc2VkIGRpcmVjdGx5IHRvIHlvdXIgYmFuayBhY2NvdW50LlwiLFxuICAgIH0sXG4gIF0sXG5cbiAgZmFxOiBbXG4gICAge1xuICAgICAgcTogXCJXaGF0IHR5cGVzIG9mIGxvYW5zIGRvZXMgUm95IExvYW4gQ29uc3VsdGFuY3kgaGFuZGxlP1wiLFxuICAgICAgYTogXCJXZSBhc3Npc3Qgd2l0aCBQZXJzb25hbCBMb2FucywgSG9tZSBMb2FucywgQnVzaW5lc3MgTG9hbnMsIE1TTUUgTXVkcmEgTG9hbnMsIE1vcnRnYWdlIExvYW5zIChMQVApLCBDYXIgTG9hbnMsIGFuZCBHb2xkIExvYW5zIGFjcm9zcyBnb3Zlcm5tZW50IGFuZCBwcml2YXRlIGJhbmtzLlwiLFxuICAgIH0sXG4gICAge1xuICAgICAgcTogXCJXaGVyZSBpcyB0aGUgb2ZmaWNlIGxvY2F0ZWQgYW5kIGNhbiBJIHdhbGsgaW4gZGlyZWN0bHk/XCIsXG4gICAgICBhOiBcIlllcyEgT3VyIG9mZmljZSBpcyBsb2NhdGVkIGF0IE5hcmVuZHJhcHVyIFJhdGh0YWxhLCBTb25hcnB1ciwgS29sa2F0YSAtIDcwMDEwMyBvbiBOLiBTLiBCb3NlIFJvYWQuIFlvdSBjYW4gd2FsayBpbiBiZXR3ZWVuIDEwOjAwIEFNIGFuZCA4OjAwIFBNIE1vbmRheSB0aHJvdWdoIFNhdHVyZGF5LCBvciBjYWxsICs5MSA5NDMyOTU3NDU5IHRvIHNjaGVkdWxlIGFuIGFwcG9pbnRtZW50LlwiLFxuICAgIH0sXG4gICAge1xuICAgICAgcTogXCJDYW4geW91IGhlbHAgaWYgSSBhbSBzZWxmLWVtcGxveWVkIG9yIHJ1biBhIHNtYWxsIHNob3A/XCIsXG4gICAgICBhOiBcIkFic29sdXRlbHkuIFdlIHNwZWNpYWxpemUgaW4gQnVzaW5lc3MgTG9hbnMgYW5kIE1TTUUgTXVkcmEgTG9hbnMgZm9yIGxvY2FsIHNob3BrZWVwZXJzLCB0cmFkZXJzLCBjb250cmFjdG9ycywgYW5kIGVudHJlcHJlbmV1cnMgd2l0aCBvciB3aXRob3V0IGZvcm1hbCBhdWRpdGVkIGJhbGFuY2Ugc2hlZXRzLlwiLFxuICAgIH0sXG4gICAge1xuICAgICAgcTogXCJIb3cgbG9uZyBkb2VzIGEgbG9hbiBzYW5jdGlvbiB0eXBpY2FsbHkgdGFrZT9cIixcbiAgICAgIGE6IFwiUGVyc29uYWwgYW5kIEdvbGQgTG9hbnMgY2FuIGJlIHByb2Nlc3NlZCB3aXRoaW4gMjQgdG8gNDggaG91cnMuIEhvbWUsIE1vcnRnYWdlLCBhbmQgQnVzaW5lc3MgTG9hbnMgdXN1YWxseSB0YWtlIGJldHdlZW4gNCB0byA3IHdvcmtpbmcgZGF5cyBkZXBlbmRpbmcgb24gcHJvcGVydHkgYW5kIGJhbmsgZG9jdW1lbnRhdGlvbi5cIixcbiAgICB9LFxuICBdLFxufTtcbiJdfQ==

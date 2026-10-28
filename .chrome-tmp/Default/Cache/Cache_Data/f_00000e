@@ -1,0 +1,476 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/src/components/Location.jsx");const React = __vite__cjsImport0_react;const _jsxDEV = __vite__cjsImport4_react_jsxDevRuntime["jsxDEV"];import __vite__cjsImport0_react from "/node_modules/.vite/deps/react.js?v=0e28fc31";
+import { MapPin, Navigation, Clock, Phone, Mail, ExternalLink, ShieldCheck } from "/node_modules/.vite/deps/lucide-react.js?v=0e28fc31";
+import SectionHeading from "/src/components/SectionHeading.jsx";
+import { siteData } from "/src/data/siteData.js";
+var _jsxFileName = "D:/Deso office workspace/ROY LOAN CONSULTANCY/src/components/Location.jsx";
+import __vite__cjsImport4_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=0e28fc31";
+const Location = () => {
+	return /* @__PURE__ */ _jsxDEV("section", {
+		id: "location",
+		className: "py-20 lg:py-28 bg-slate-50 relative",
+		children: /* @__PURE__ */ _jsxDEV("div", {
+			className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+			children: [/* @__PURE__ */ _jsxDEV(SectionHeading, {
+				eyebrow: "Visit Our Office",
+				title: "Convenient Location at Narendrapur Rathtala",
+				subtitle: "Easily accessible from Garia, Sonarpur, Rajpur, and across South 24 Parganas & Kolkata. Walk in or call to schedule your visit."
+			}, void 0, false, {
+				fileName: _jsxFileName,
+				lineNumber: 10,
+				columnNumber: 9
+			}, this), /* @__PURE__ */ _jsxDEV("div", {
+				className: "mt-14 grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch",
+				children: [/* @__PURE__ */ _jsxDEV("div", {
+					className: "lg:col-span-5 flex flex-col justify-between space-y-6 bg-white p-7 sm:p-9 rounded-3xl border border-slate-200 shadow-md text-left",
+					children: [/* @__PURE__ */ _jsxDEV("div", { children: [
+						/* @__PURE__ */ _jsxDEV("div", {
+							className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 text-red-700 text-xs font-bold uppercase tracking-wider mb-4",
+							children: [/* @__PURE__ */ _jsxDEV(MapPin, { className: "w-3.5 h-3.5" }, void 0, false, {
+								fileName: _jsxFileName,
+								lineNumber: 21,
+								columnNumber: 17
+							}, this), "Physical Branch Location"]
+						}, void 0, true, {
+							fileName: _jsxFileName,
+							lineNumber: 20,
+							columnNumber: 15
+						}, this),
+						/* @__PURE__ */ _jsxDEV("h3", {
+							className: "text-2xl font-black text-slate-900 tracking-tight",
+							children: "Roy Loan Consultancy"
+						}, void 0, false, {
+							fileName: _jsxFileName,
+							lineNumber: 25,
+							columnNumber: 15
+						}, this),
+						/* @__PURE__ */ _jsxDEV("p", {
+							className: "text-sm font-semibold text-red-600 mt-0.5",
+							children: "Soumitra Roy, Consultant"
+						}, void 0, false, {
+							fileName: _jsxFileName,
+							lineNumber: 28,
+							columnNumber: 15
+						}, this),
+						/* @__PURE__ */ _jsxDEV("div", {
+							className: "mt-6 space-y-4 text-sm text-slate-700",
+							children: [
+								/* @__PURE__ */ _jsxDEV("div", {
+									className: "flex items-start gap-3",
+									children: [/* @__PURE__ */ _jsxDEV(MapPin, { className: "w-5 h-5 text-red-600 shrink-0 mt-0.5" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 35,
+										columnNumber: 19
+									}, this), /* @__PURE__ */ _jsxDEV("div", { children: [/* @__PURE__ */ _jsxDEV("strong", {
+										className: "block text-slate-900 font-bold",
+										children: "Office Address:"
+									}, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 37,
+										columnNumber: 21
+									}, this), /* @__PURE__ */ _jsxDEV("span", { children: "N. S. Bose Road, Narendrapur Rathtala, Sonarpur, Kolkata, South 24 Parganas, West Bengal - 700103" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 38,
+										columnNumber: 21
+									}, this)] }, void 0, true, {
+										fileName: _jsxFileName,
+										lineNumber: 36,
+										columnNumber: 19
+									}, this)]
+								}, void 0, true, {
+									fileName: _jsxFileName,
+									lineNumber: 34,
+									columnNumber: 17
+								}, this),
+								/* @__PURE__ */ _jsxDEV("div", {
+									className: "flex items-start gap-3",
+									children: [/* @__PURE__ */ _jsxDEV(Clock, { className: "w-5 h-5 text-amber-600 shrink-0 mt-0.5" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 43,
+										columnNumber: 19
+									}, this), /* @__PURE__ */ _jsxDEV("div", { children: [
+										/* @__PURE__ */ _jsxDEV("strong", {
+											className: "block text-slate-900 font-bold",
+											children: "Business Hours:"
+										}, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 45,
+											columnNumber: 21
+										}, this),
+										/* @__PURE__ */ _jsxDEV("span", { children: "Monday to Saturday: 10:00 AM – 8:00 PM" }, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 46,
+											columnNumber: 21
+										}, this),
+										/* @__PURE__ */ _jsxDEV("p", {
+											className: "text-xs text-slate-500 mt-0.5",
+											children: "Sunday: Consultation by prior appointment"
+										}, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 47,
+											columnNumber: 21
+										}, this)
+									] }, void 0, true, {
+										fileName: _jsxFileName,
+										lineNumber: 44,
+										columnNumber: 19
+									}, this)]
+								}, void 0, true, {
+									fileName: _jsxFileName,
+									lineNumber: 42,
+									columnNumber: 17
+								}, this),
+								/* @__PURE__ */ _jsxDEV("div", {
+									className: "flex items-start gap-3",
+									children: [/* @__PURE__ */ _jsxDEV(Phone, { className: "w-5 h-5 text-emerald-600 shrink-0 mt-0.5" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 52,
+										columnNumber: 19
+									}, this), /* @__PURE__ */ _jsxDEV("div", { children: [/* @__PURE__ */ _jsxDEV("strong", {
+										className: "block text-slate-900 font-bold",
+										children: "Direct Phone Numbers:"
+									}, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 54,
+										columnNumber: 21
+									}, this), /* @__PURE__ */ _jsxDEV("div", {
+										className: "flex flex-col gap-1 mt-0.5",
+										children: [/* @__PURE__ */ _jsxDEV("a", {
+											href: `tel:${siteData.contact.primaryPhone}`,
+											className: "text-slate-900 hover:text-red-600 font-semibold transition-colors",
+											children: siteData.contact.primaryPhoneDisplay
+										}, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 56,
+											columnNumber: 23
+										}, this), /* @__PURE__ */ _jsxDEV("a", {
+											href: `tel:${siteData.contact.secondaryPhone}`,
+											className: "text-slate-900 hover:text-red-600 font-semibold transition-colors",
+											children: siteData.contact.secondaryPhoneDisplay
+										}, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 59,
+											columnNumber: 23
+										}, this)]
+									}, void 0, true, {
+										fileName: _jsxFileName,
+										lineNumber: 55,
+										columnNumber: 21
+									}, this)] }, void 0, true, {
+										fileName: _jsxFileName,
+										lineNumber: 53,
+										columnNumber: 19
+									}, this)]
+								}, void 0, true, {
+									fileName: _jsxFileName,
+									lineNumber: 51,
+									columnNumber: 17
+								}, this),
+								/* @__PURE__ */ _jsxDEV("div", {
+									className: "flex items-start gap-3",
+									children: [/* @__PURE__ */ _jsxDEV(Mail, { className: "w-5 h-5 text-blue-600 shrink-0 mt-0.5" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 67,
+										columnNumber: 19
+									}, this), /* @__PURE__ */ _jsxDEV("div", { children: [/* @__PURE__ */ _jsxDEV("strong", {
+										className: "block text-slate-900 font-bold",
+										children: "Email Inquiries:"
+									}, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 69,
+										columnNumber: 21
+									}, this), /* @__PURE__ */ _jsxDEV("a", {
+										href: `mailto:${siteData.contact.email}`,
+										className: "text-slate-900 hover:text-red-600 transition-colors",
+										children: siteData.contact.email
+									}, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 70,
+										columnNumber: 21
+									}, this)] }, void 0, true, {
+										fileName: _jsxFileName,
+										lineNumber: 68,
+										columnNumber: 19
+									}, this)]
+								}, void 0, true, {
+									fileName: _jsxFileName,
+									lineNumber: 66,
+									columnNumber: 17
+								}, this)
+							]
+						}, void 0, true, {
+							fileName: _jsxFileName,
+							lineNumber: 33,
+							columnNumber: 15
+						}, this)
+					] }, void 0, true, {
+						fileName: _jsxFileName,
+						lineNumber: 19,
+						columnNumber: 13
+					}, this), /* @__PURE__ */ _jsxDEV("div", {
+						className: "pt-6 border-t border-slate-100",
+						children: [
+							/* @__PURE__ */ _jsxDEV("p", {
+								className: "text-xs font-bold text-slate-400 uppercase tracking-wider mb-2",
+								children: "Transit Landmark:"
+							}, void 0, false, {
+								fileName: _jsxFileName,
+								lineNumber: 80,
+								columnNumber: 15
+							}, this),
+							/* @__PURE__ */ _jsxDEV("p", {
+								className: "text-xs text-slate-600 leading-relaxed",
+								children: [
+									"Located right at ",
+									/* @__PURE__ */ _jsxDEV("strong", { children: "Rathtala More" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 84,
+										columnNumber: 34
+									}, this),
+									" on Netaji Subhash Chandra Bose Road. Quick auto/bus connection from ",
+									/* @__PURE__ */ _jsxDEV("strong", { children: "Kavi Subhash (New Garia) Metro" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 84,
+										columnNumber: 133
+									}, this),
+									" and ",
+									/* @__PURE__ */ _jsxDEV("strong", { children: "Sonarpur Railway Station" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 84,
+										columnNumber: 185
+									}, this),
+									"."
+								]
+							}, void 0, true, {
+								fileName: _jsxFileName,
+								lineNumber: 83,
+								columnNumber: 15
+							}, this),
+							/* @__PURE__ */ _jsxDEV("div", {
+								className: "mt-5 flex flex-wrap gap-3",
+								children: [/* @__PURE__ */ _jsxDEV("a", {
+									href: siteData.contact.googleMapUrl,
+									target: "_blank",
+									rel: "noopener noreferrer",
+									className: "inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs shadow-md transition-all cursor-pointer",
+									children: [
+										/* @__PURE__ */ _jsxDEV(Navigation, { className: "w-4 h-4" }, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 94,
+											columnNumber: 19
+										}, this),
+										/* @__PURE__ */ _jsxDEV("span", { children: "Get Directions on Google Maps" }, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 95,
+											columnNumber: 19
+										}, this),
+										/* @__PURE__ */ _jsxDEV(ExternalLink, { className: "w-3.5 h-3.5" }, void 0, false, {
+											fileName: _jsxFileName,
+											lineNumber: 96,
+											columnNumber: 19
+										}, this)
+									]
+								}, void 0, true, {
+									fileName: _jsxFileName,
+									lineNumber: 88,
+									columnNumber: 17
+								}, this), /* @__PURE__ */ _jsxDEV("a", {
+									href: `tel:${siteData.contact.primaryPhone}`,
+									className: "inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs border border-slate-200 transition-colors",
+									children: [/* @__PURE__ */ _jsxDEV(Phone, { className: "w-3.5 h-3.5 text-red-600" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 103,
+										columnNumber: 19
+									}, this), /* @__PURE__ */ _jsxDEV("span", { children: "Call Office" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 104,
+										columnNumber: 19
+									}, this)]
+								}, void 0, true, {
+									fileName: _jsxFileName,
+									lineNumber: 99,
+									columnNumber: 17
+								}, this)]
+							}, void 0, true, {
+								fileName: _jsxFileName,
+								lineNumber: 87,
+								columnNumber: 15
+							}, this)
+						]
+					}, void 0, true, {
+						fileName: _jsxFileName,
+						lineNumber: 79,
+						columnNumber: 13
+					}, this)]
+				}, void 0, true, {
+					fileName: _jsxFileName,
+					lineNumber: 18,
+					columnNumber: 11
+				}, this), /* @__PURE__ */ _jsxDEV("div", {
+					className: "lg:col-span-7 rounded-3xl overflow-hidden border border-slate-200 shadow-md bg-white flex flex-col",
+					children: [/* @__PURE__ */ _jsxDEV("div", {
+						className: "p-4 bg-slate-900 text-white flex items-center justify-between text-xs",
+						children: [/* @__PURE__ */ _jsxDEV("div", {
+							className: "flex items-center gap-2",
+							children: [/* @__PURE__ */ _jsxDEV("span", { className: "w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" }, void 0, false, {
+								fileName: _jsxFileName,
+								lineNumber: 114,
+								columnNumber: 17
+							}, this), /* @__PURE__ */ _jsxDEV("span", {
+								className: "font-bold",
+								children: "Google Map Location • Rathtala, Narendrapur"
+							}, void 0, false, {
+								fileName: _jsxFileName,
+								lineNumber: 115,
+								columnNumber: 17
+							}, this)]
+						}, void 0, true, {
+							fileName: _jsxFileName,
+							lineNumber: 113,
+							columnNumber: 15
+						}, this), /* @__PURE__ */ _jsxDEV("a", {
+							href: siteData.contact.googleMapUrl,
+							target: "_blank",
+							rel: "noopener noreferrer",
+							className: "text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-1",
+							children: [/* @__PURE__ */ _jsxDEV("span", { children: "Open in App" }, void 0, false, {
+								fileName: _jsxFileName,
+								lineNumber: 123,
+								columnNumber: 17
+							}, this), /* @__PURE__ */ _jsxDEV(ExternalLink, { className: "w-3 h-3" }, void 0, false, {
+								fileName: _jsxFileName,
+								lineNumber: 124,
+								columnNumber: 17
+							}, this)]
+						}, void 0, true, {
+							fileName: _jsxFileName,
+							lineNumber: 117,
+							columnNumber: 15
+						}, this)]
+					}, void 0, true, {
+						fileName: _jsxFileName,
+						lineNumber: 112,
+						columnNumber: 13
+					}, this), /* @__PURE__ */ _jsxDEV("div", {
+						className: "relative flex-1 w-full min-h-[360px] sm:min-h-[440px]",
+						children: [/* @__PURE__ */ _jsxDEV("iframe", {
+							title: "Roy Loan Consultancy Google Map Location",
+							src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.5855734260537!2d88.398000!3d22.439000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027170a4c9b83b%3A0x6b3f7f897f74c7e6!2sNarendrapur%20Rathtala%2C%20Kolkata%2C%20West%20Bengal%20700103!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+							width: "100%",
+							height: "100%",
+							style: { border: 0 },
+							allowFullScreen: "",
+							loading: "lazy",
+							referrerPolicy: "no-referrer-when-downgrade",
+							className: "w-full h-full min-h-[380px]"
+						}, void 0, false, {
+							fileName: _jsxFileName,
+							lineNumber: 130,
+							columnNumber: 15
+						}, this), /* @__PURE__ */ _jsxDEV("div", {
+							className: "absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-2xl border border-slate-200 shadow-lg flex items-center justify-between gap-3 text-left",
+							children: [/* @__PURE__ */ _jsxDEV("div", {
+								className: "flex items-center gap-3",
+								children: [/* @__PURE__ */ _jsxDEV("div", {
+									className: "w-9 h-9 rounded-xl bg-red-600 text-white flex items-center justify-center font-bold shrink-0",
+									children: /* @__PURE__ */ _jsxDEV(MapPin, { className: "w-4 h-4" }, void 0, false, {
+										fileName: _jsxFileName,
+										lineNumber: 146,
+										columnNumber: 21
+									}, this)
+								}, void 0, false, {
+									fileName: _jsxFileName,
+									lineNumber: 145,
+									columnNumber: 19
+								}, this), /* @__PURE__ */ _jsxDEV("div", { children: [/* @__PURE__ */ _jsxDEV("p", {
+									className: "text-xs font-bold text-slate-900",
+									children: "Roy Loan Consultancy • Soumitra Roy"
+								}, void 0, false, {
+									fileName: _jsxFileName,
+									lineNumber: 149,
+									columnNumber: 21
+								}, this), /* @__PURE__ */ _jsxDEV("p", {
+									className: "text-[11px] text-slate-500",
+									children: "Narendrapur Rathtala, Sonarpur, Kolkata - 700103"
+								}, void 0, false, {
+									fileName: _jsxFileName,
+									lineNumber: 152,
+									columnNumber: 21
+								}, this)] }, void 0, true, {
+									fileName: _jsxFileName,
+									lineNumber: 148,
+									columnNumber: 19
+								}, this)]
+							}, void 0, true, {
+								fileName: _jsxFileName,
+								lineNumber: 144,
+								columnNumber: 17
+							}, this), /* @__PURE__ */ _jsxDEV("a", {
+								href: siteData.contact.googleMapUrl,
+								target: "_blank",
+								rel: "noopener noreferrer",
+								className: "shrink-0 px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition-colors",
+								children: "Navigate"
+							}, void 0, false, {
+								fileName: _jsxFileName,
+								lineNumber: 158,
+								columnNumber: 17
+							}, this)]
+						}, void 0, true, {
+							fileName: _jsxFileName,
+							lineNumber: 143,
+							columnNumber: 15
+						}, this)]
+					}, void 0, true, {
+						fileName: _jsxFileName,
+						lineNumber: 129,
+						columnNumber: 13
+					}, this)]
+				}, void 0, true, {
+					fileName: _jsxFileName,
+					lineNumber: 111,
+					columnNumber: 11
+				}, this)]
+			}, void 0, true, {
+				fileName: _jsxFileName,
+				lineNumber: 16,
+				columnNumber: 9
+			}, this)]
+		}, void 0, true, {
+			fileName: _jsxFileName,
+			lineNumber: 9,
+			columnNumber: 7
+		}, this)
+	}, void 0, false, {
+		fileName: _jsxFileName,
+		lineNumber: 8,
+		columnNumber: 5
+	}, this);
+};
+_c = Location;
+export default Location;
+var _c;
+$RefreshReg$(_c, "Location");
+import * as RefreshRuntime from "/@react-refresh";
+const inWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope;
+import * as __vite_react_currentExports from "/src/components/Location.jsx";
+if (import.meta.hot && !inWebWorker) {
+  if (!window.$RefreshReg$) {
+    throw new Error(
+      "@vitejs/plugin-react can't detect preamble. Something is wrong."
+    );
+  }
+
+  const currentExports = __vite_react_currentExports;
+  queueMicrotask(() => {
+    RefreshRuntime.registerExportsForReactRefresh("D:/Deso office workspace/ROY LOAN CONSULTANCY/src/components/Location.jsx", currentExports);
+    import.meta.hot.accept((nextExports) => {
+      if (!nextExports) return;
+      const invalidateMessage = RefreshRuntime.validateRefreshBoundaryAndEnqueueUpdate("D:/Deso office workspace/ROY LOAN CONSULTANCY/src/components/Location.jsx", currentExports, nextExports);
+      if (invalidateMessage) import.meta.hot.invalidate(invalidateMessage);
+    });
+  });
+}
+function $RefreshReg$(type, id) { return RefreshRuntime.register(type, "D:/Deso office workspace/ROY LOAN CONSULTANCY/src/components/Location.jsx" + ' ' + id); }
+function $RefreshSig$() { return RefreshRuntime.createSignatureFunctionForTransform(); }
+
+//# sourceMappingURL=data:application/json;base64,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VTtpQkFBZixDQUNFLHdCQUFDLE9BQUQ7UUFBSyxXQUFVO2tCQUFmLENBQ0Usd0JBQUMsT0FBRDtTQUFLLFdBQVU7bUJBQ2Isd0JBQUMsUUFBRCxFQUFRLFdBQVUsVUFBVzs7Ozs7UUFDMUI7Ozs7a0JBQ0wsd0JBQUMsT0FBRCxhQUNFLHdCQUFDLEtBQUQ7U0FBRyxXQUFVO21CQUFtQztRQUU3Qzs7OztrQkFDSCx3QkFBQyxLQUFEO1NBQUcsV0FBVTttQkFBNkI7UUFFdkM7Ozs7Z0JBQ0E7Ozs7Z0JBQ0Y7Ozs7O2lCQUVMLHdCQUFDLEtBQUQ7UUFDRSxNQUFNLFNBQVMsUUFBUTtRQUN2QixRQUFPO1FBQ1AsS0FBSTtRQUNKLFdBQVU7a0JBQ1g7T0FFRTs7OztlQUNBOzs7OztjQUNGOzs7OzthQUNGOzs7OztZQUNGOzs7OztXQUNGOzs7Ozs7Q0FDRTs7Ozs7QUFFYjs7QUFFQSxlQUFlIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkxvY2F0aW9uLmpzeCJdLCJ2ZXJzaW9uIjozLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgTWFwUGluLCBOYXZpZ2F0aW9uLCBDbG9jaywgUGhvbmUsIE1haWwsIEV4dGVybmFsTGluaywgU2hpZWxkQ2hlY2sgfSBmcm9tICdsdWNpZGUtcmVhY3QnO1xuaW1wb3J0IFNlY3Rpb25IZWFkaW5nIGZyb20gJy4vU2VjdGlvbkhlYWRpbmcnO1xuaW1wb3J0IHsgc2l0ZURhdGEgfSBmcm9tICcuLi9kYXRhL3NpdGVEYXRhJztcblxuY29uc3QgTG9jYXRpb24gPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPHNlY3Rpb24gaWQ9XCJsb2NhdGlvblwiIGNsYXNzTmFtZT1cInB5LTIwIGxnOnB5LTI4IGJnLXNsYXRlLTUwIHJlbGF0aXZlXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1heC13LTd4bCBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04XCI+XG4gICAgICAgIDxTZWN0aW9uSGVhZGluZ1xuICAgICAgICAgIGV5ZWJyb3c9XCJWaXNpdCBPdXIgT2ZmaWNlXCJcbiAgICAgICAgICB0aXRsZT1cIkNvbnZlbmllbnQgTG9jYXRpb24gYXQgTmFyZW5kcmFwdXIgUmF0aHRhbGFcIlxuICAgICAgICAgIHN1YnRpdGxlPVwiRWFzaWx5IGFjY2Vzc2libGUgZnJvbSBHYXJpYSwgU29uYXJwdXIsIFJhanB1ciwgYW5kIGFjcm9zcyBTb3V0aCAyNCBQYXJnYW5hcyAmIEtvbGthdGEuIFdhbGsgaW4gb3IgY2FsbCB0byBzY2hlZHVsZSB5b3VyIHZpc2l0LlwiXG4gICAgICAgIC8+XG5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtdC0xNCBncmlkIGdyaWQtY29scy0xIGxnOmdyaWQtY29scy0xMiBnYXAtOCBpdGVtcy1zdHJldGNoXCI+XG4gICAgICAgICAgey8qIExlZnQgQ29sdW1uOiBPZmZpY2UgQWRkcmVzcyAmIE9wZXJhdGluZyBIb3VycyBDYXJkICovfVxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibGc6Y29sLXNwYW4tNSBmbGV4IGZsZXgtY29sIGp1c3RpZnktYmV0d2VlbiBzcGFjZS15LTYgYmctd2hpdGUgcC03IHNtOnAtOSByb3VuZGVkLTN4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBzaGFkb3ctbWQgdGV4dC1sZWZ0XCI+XG4gICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBweC0zIHB5LTEgcm91bmRlZC1mdWxsIGJnLXJlZC01MCB0ZXh0LXJlZC03MDAgdGV4dC14cyBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIG1iLTRcIj5cbiAgICAgICAgICAgICAgICA8TWFwUGluIGNsYXNzTmFtZT1cInctMy41IGgtMy41XCIgLz5cbiAgICAgICAgICAgICAgICBQaHlzaWNhbCBCcmFuY2ggTG9jYXRpb25cbiAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRleHQtMnhsIGZvbnQtYmxhY2sgdGV4dC1zbGF0ZS05MDAgdHJhY2tpbmctdGlnaHRcIj5cbiAgICAgICAgICAgICAgICBSb3kgTG9hbiBDb25zdWx0YW5jeVxuICAgICAgICAgICAgICA8L2gzPlxuICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1yZWQtNjAwIG10LTAuNVwiPlxuICAgICAgICAgICAgICAgIFNvdW1pdHJhIFJveSwgQ29uc3VsdGFudFxuICAgICAgICAgICAgICA8L3A+XG5cbiAgICAgICAgICAgICAgey8qIEFkZHJlc3MgZGV0YWlscyAqL31cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtdC02IHNwYWNlLXktNCB0ZXh0LXNtIHRleHQtc2xhdGUtNzAwXCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zXCI+XG4gICAgICAgICAgICAgICAgICA8TWFwUGluIGNsYXNzTmFtZT1cInctNSBoLTUgdGV4dC1yZWQtNjAwIHNocmluay0wIG10LTAuNVwiIC8+XG4gICAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cImJsb2NrIHRleHQtc2xhdGUtOTAwIGZvbnQtYm9sZFwiPk9mZmljZSBBZGRyZXNzOjwvc3Ryb25nPlxuICAgICAgICAgICAgICAgICAgICA8c3Bhbj5OLiBTLiBCb3NlIFJvYWQsIE5hcmVuZHJhcHVyIFJhdGh0YWxhLCBTb25hcnB1ciwgS29sa2F0YSwgU291dGggMjQgUGFyZ2FuYXMsIFdlc3QgQmVuZ2FsIC0gNzAwMTAzPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtc3RhcnQgZ2FwLTNcIj5cbiAgICAgICAgICAgICAgICAgIDxDbG9jayBjbGFzc05hbWU9XCJ3LTUgaC01IHRleHQtYW1iZXItNjAwIHNocmluay0wIG10LTAuNVwiIC8+XG4gICAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cImJsb2NrIHRleHQtc2xhdGUtOTAwIGZvbnQtYm9sZFwiPkJ1c2luZXNzIEhvdXJzOjwvc3Ryb25nPlxuICAgICAgICAgICAgICAgICAgICA8c3Bhbj5Nb25kYXkgdG8gU2F0dXJkYXk6IDEwOjAwIEFNIOKAkyA4OjAwIFBNPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LXhzIHRleHQtc2xhdGUtNTAwIG10LTAuNVwiPlN1bmRheTogQ29uc3VsdGF0aW9uIGJ5IHByaW9yIGFwcG9pbnRtZW50PC9wPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZsZXggaXRlbXMtc3RhcnQgZ2FwLTNcIj5cbiAgICAgICAgICAgICAgICAgIDxQaG9uZSBjbGFzc05hbWU9XCJ3LTUgaC01IHRleHQtZW1lcmFsZC02MDAgc2hyaW5rLTAgbXQtMC41XCIgLz5cbiAgICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwiYmxvY2sgdGV4dC1zbGF0ZS05MDAgZm9udC1ib2xkXCI+RGlyZWN0IFBob25lIE51bWJlcnM6PC9zdHJvbmc+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBmbGV4LWNvbCBnYXAtMSBtdC0wLjVcIj5cbiAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPXtgdGVsOiR7c2l0ZURhdGEuY29udGFjdC5wcmltYXJ5UGhvbmV9YH0gY2xhc3NOYW1lPVwidGV4dC1zbGF0ZS05MDAgaG92ZXI6dGV4dC1yZWQtNjAwIGZvbnQtc2VtaWJvbGQgdHJhbnNpdGlvbi1jb2xvcnNcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIHtzaXRlRGF0YS5jb250YWN0LnByaW1hcnlQaG9uZURpc3BsYXl9XG4gICAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e2B0ZWw6JHtzaXRlRGF0YS5jb250YWN0LnNlY29uZGFyeVBob25lfWB9IGNsYXNzTmFtZT1cInRleHQtc2xhdGUtOTAwIGhvdmVyOnRleHQtcmVkLTYwMCBmb250LXNlbWlib2xkIHRyYW5zaXRpb24tY29sb3JzXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICB7c2l0ZURhdGEuY29udGFjdC5zZWNvbmRhcnlQaG9uZURpc3BsYXl9XG4gICAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zXCI+XG4gICAgICAgICAgICAgICAgICA8TWFpbCBjbGFzc05hbWU9XCJ3LTUgaC01IHRleHQtYmx1ZS02MDAgc2hyaW5rLTAgbXQtMC41XCIgLz5cbiAgICAgICAgICAgICAgICAgIDxkaXY+XG4gICAgICAgICAgICAgICAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwiYmxvY2sgdGV4dC1zbGF0ZS05MDAgZm9udC1ib2xkXCI+RW1haWwgSW5xdWlyaWVzOjwvc3Ryb25nPlxuICAgICAgICAgICAgICAgICAgICA8YSBocmVmPXtgbWFpbHRvOiR7c2l0ZURhdGEuY29udGFjdC5lbWFpbH1gfSBjbGFzc05hbWU9XCJ0ZXh0LXNsYXRlLTkwMCBob3Zlcjp0ZXh0LXJlZC02MDAgdHJhbnNpdGlvbi1jb2xvcnNcIj5cbiAgICAgICAgICAgICAgICAgICAgICB7c2l0ZURhdGEuY29udGFjdC5lbWFpbH1cbiAgICAgICAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIHsvKiBRdWljayBUcmFuc3BvcnQgRGlyZWN0aW9ucyAqL31cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHQtNiBib3JkZXItdCBib3JkZXItc2xhdGUtMTAwXCI+XG4gICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cInRleHQteHMgZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciBtYi0yXCI+XG4gICAgICAgICAgICAgICAgVHJhbnNpdCBMYW5kbWFyazpcbiAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LXhzIHRleHQtc2xhdGUtNjAwIGxlYWRpbmctcmVsYXhlZFwiPlxuICAgICAgICAgICAgICAgIExvY2F0ZWQgcmlnaHQgYXQgPHN0cm9uZz5SYXRodGFsYSBNb3JlPC9zdHJvbmc+IG9uIE5ldGFqaSBTdWJoYXNoIENoYW5kcmEgQm9zZSBSb2FkLiBRdWljayBhdXRvL2J1cyBjb25uZWN0aW9uIGZyb20gPHN0cm9uZz5LYXZpIFN1Ymhhc2ggKE5ldyBHYXJpYSkgTWV0cm88L3N0cm9uZz4gYW5kIDxzdHJvbmc+U29uYXJwdXIgUmFpbHdheSBTdGF0aW9uPC9zdHJvbmc+LlxuICAgICAgICAgICAgICA8L3A+XG5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtdC01IGZsZXggZmxleC13cmFwIGdhcC0zXCI+XG4gICAgICAgICAgICAgICAgPGFcbiAgICAgICAgICAgICAgICAgIGhyZWY9e3NpdGVEYXRhLmNvbnRhY3QuZ29vZ2xlTWFwVXJsfVxuICAgICAgICAgICAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgICAgICAgICAgIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIlxuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwiaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTUgcHktMi41IHJvdW5kZWQteGwgYmctcmVkLTYwMCBob3ZlcjpiZy1yZWQtNzAwIHRleHQtd2hpdGUgZm9udC1ib2xkIHRleHQteHMgc2hhZG93LW1kIHRyYW5zaXRpb24tYWxsIGN1cnNvci1wb2ludGVyXCJcbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICA8TmF2aWdhdGlvbiBjbGFzc05hbWU9XCJ3LTQgaC00XCIgLz5cbiAgICAgICAgICAgICAgICAgIDxzcGFuPkdldCBEaXJlY3Rpb25zIG9uIEdvb2dsZSBNYXBzPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgPEV4dGVybmFsTGluayBjbGFzc05hbWU9XCJ3LTMuNSBoLTMuNVwiIC8+XG4gICAgICAgICAgICAgICAgPC9hPlxuXG4gICAgICAgICAgICAgICAgPGFcbiAgICAgICAgICAgICAgICAgIGhyZWY9e2B0ZWw6JHtzaXRlRGF0YS5jb250YWN0LnByaW1hcnlQaG9uZX1gfVxuICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwiaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTQgcHktMi41IHJvdW5kZWQteGwgYmctc2xhdGUtMTAwIGhvdmVyOmJnLXNsYXRlLTIwMCB0ZXh0LXNsYXRlLTgwMCBmb250LWJvbGQgdGV4dC14cyBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCB0cmFuc2l0aW9uLWNvbG9yc1wiXG4gICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgPFBob25lIGNsYXNzTmFtZT1cInctMy41IGgtMy41IHRleHQtcmVkLTYwMFwiIC8+XG4gICAgICAgICAgICAgICAgICA8c3Bhbj5DYWxsIE9mZmljZTwvc3Bhbj5cbiAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICB7LyogUmlnaHQgQ29sdW1uOiBFbWJlZGRlZCBJbnRlcmFjdGl2ZSBNYXAgQ29udGFpbmVyICovfVxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibGc6Y29sLXNwYW4tNyByb3VuZGVkLTN4bCBvdmVyZmxvdy1oaWRkZW4gYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAgc2hhZG93LW1kIGJnLXdoaXRlIGZsZXggZmxleC1jb2xcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicC00IGJnLXNsYXRlLTkwMCB0ZXh0LXdoaXRlIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiB0ZXh0LXhzXCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTJcIj5cbiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ3LTIuNSBoLTIuNSByb3VuZGVkLWZ1bGwgYmctZW1lcmFsZC00MDAgYW5pbWF0ZS1wdWxzZVwiIC8+XG4gICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiZm9udC1ib2xkXCI+R29vZ2xlIE1hcCBMb2NhdGlvbiDigKIgUmF0aHRhbGEsIE5hcmVuZHJhcHVyPC9zcGFuPlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPGFcbiAgICAgICAgICAgICAgICBocmVmPXtzaXRlRGF0YS5jb250YWN0Lmdvb2dsZU1hcFVybH1cbiAgICAgICAgICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxuICAgICAgICAgICAgICAgIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIlxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInRleHQtYW1iZXItNDAwIGhvdmVyOnRleHQtYW1iZXItMzAwIGZvbnQtc2VtaWJvbGQgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTFcIlxuICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgPHNwYW4+T3BlbiBpbiBBcHA8L3NwYW4+XG4gICAgICAgICAgICAgICAgPEV4dGVybmFsTGluayBjbGFzc05hbWU9XCJ3LTMgaC0zXCIgLz5cbiAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIHsvKiBHb29nbGUgTWFwcyBFbWJlZCBpZnJhbWUgKi99XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJlbGF0aXZlIGZsZXgtMSB3LWZ1bGwgbWluLWgtWzM2MHB4XSBzbTptaW4taC1bNDQwcHhdXCI+XG4gICAgICAgICAgICAgIDxpZnJhbWVcbiAgICAgICAgICAgICAgICB0aXRsZT1cIlJveSBMb2FuIENvbnN1bHRhbmN5IEdvb2dsZSBNYXAgTG9jYXRpb25cIlxuICAgICAgICAgICAgICAgIHNyYz1cImh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vbWFwcy9lbWJlZD9wYj0hMW0xOCExbTEyITFtMyExZDM2ODcuNTg1NTczNDI2MDUzNyEyZDg4LjM5ODAwMCEzZDIyLjQzOTAwMCEybTMhMWYwITJmMCEzZjAhM20yITFpMTAyNCEyaTc2OCE0ZjEzLjEhM20zITFtMiExczB4M2EwMjcxNzBhNGM5YjgzYiUzQTB4NmIzZjdmODk3Zjc0YzdlNiEyc05hcmVuZHJhcHVyJTIwUmF0aHRhbGElMkMlMjBLb2xrYXRhJTJDJTIwV2VzdCUyMEJlbmdhbCUyMDcwMDEwMyE1ZTAhM20yITFzZW4hMnNpbiE0djE3MDAwMDAwMDAwMDAhNW0yITFzZW4hMnNpblwiXG4gICAgICAgICAgICAgICAgd2lkdGg9XCIxMDAlXCJcbiAgICAgICAgICAgICAgICBoZWlnaHQ9XCIxMDAlXCJcbiAgICAgICAgICAgICAgICBzdHlsZT17eyBib3JkZXI6IDAgfX1cbiAgICAgICAgICAgICAgICBhbGxvd0Z1bGxTY3JlZW49XCJcIlxuICAgICAgICAgICAgICAgIGxvYWRpbmc9XCJsYXp5XCJcbiAgICAgICAgICAgICAgICByZWZlcnJlclBvbGljeT1cIm5vLXJlZmVycmVyLXdoZW4tZG93bmdyYWRlXCJcbiAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJ3LWZ1bGwgaC1mdWxsIG1pbi1oLVszODBweF1cIlxuICAgICAgICAgICAgICAvPlxuXG4gICAgICAgICAgICAgIHsvKiBCb3R0b20gUXVpY2sgQ2FyZCAqL31cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhYnNvbHV0ZSBib3R0b20tNCBsZWZ0LTQgcmlnaHQtNCBiZy13aGl0ZS85NSBiYWNrZHJvcC1ibHVyLW1kIHAtMy41IHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIHNoYWRvdy1sZyBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgdGV4dC1sZWZ0XCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtM1wiPlxuICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3LTkgaC05IHJvdW5kZWQteGwgYmctcmVkLTYwMCB0ZXh0LXdoaXRlIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGZvbnQtYm9sZCBzaHJpbmstMFwiPlxuICAgICAgICAgICAgICAgICAgICA8TWFwUGluIGNsYXNzTmFtZT1cInctNCBoLTRcIiAvPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTkwMFwiPlxuICAgICAgICAgICAgICAgICAgICAgIFJveSBMb2FuIENvbnN1bHRhbmN5IOKAoiBTb3VtaXRyYSBSb3lcbiAgICAgICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTUwMFwiPlxuICAgICAgICAgICAgICAgICAgICAgIE5hcmVuZHJhcHVyIFJhdGh0YWxhLCBTb25hcnB1ciwgS29sa2F0YSAtIDcwMDEwM1xuICAgICAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIDxhXG4gICAgICAgICAgICAgICAgICBocmVmPXtzaXRlRGF0YS5jb250YWN0Lmdvb2dsZU1hcFVybH1cbiAgICAgICAgICAgICAgICAgIHRhcmdldD1cIl9ibGFua1wiXG4gICAgICAgICAgICAgICAgICByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCJcbiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInNocmluay0wIHB4LTMgcHktMS41IHJvdW5kZWQtbGcgYmctc2xhdGUtOTAwIGhvdmVyOmJnLXNsYXRlLTgwMCB0ZXh0LXdoaXRlIHRleHQteHMgZm9udC1ib2xkIHRyYW5zaXRpb24tY29sb3JzXCJcbiAgICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgICBOYXZpZ2F0ZVxuICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICA8L3NlY3Rpb24+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBMb2NhdGlvbjtcbiJdfQ==

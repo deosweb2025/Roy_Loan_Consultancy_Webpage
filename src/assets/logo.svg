@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" fill="none">
+  <!-- Hexagon Badge -->
+  <g transform="translate(10, 8)">
+    <polygon points="32,4 58,18 58,48 32,62 6,48 6,18" fill="#DC2626" stroke="#991B1B" stroke-width="2"/>
+    <polygon points="32,8 54,20 54,46 32,58 10,46 10,20" fill="#B91C1C"/>
+    <!-- Letter R -->
+    <text x="32" y="44" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">R</text>
+  </g>
+  
+  <!-- Text Brand -->
+  <g transform="translate(85, 12)">
+    <!-- ROY LOAN -->
+    <text x="0" y="28" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="900" font-size="28" letter-spacing="1" fill="#0F172A">
+      ROY <tspan fill="#DC2626">LOAN</tspan>
+    </text>
+    
+    <!-- CONSULTANCY -->
+    <text x="1" y="44" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="11" letter-spacing="4.5" fill="#475569">
+      CONSULTANCY
+    </text>
+    
+    <!-- SUBTITLE -->
+    <text x="1" y="58" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="600" font-size="9" letter-spacing="1" fill="#94A3B8">
+      SOUMITRA ROY &bull; FINANCIAL ADVISOR
+    </text>
+  </g>
+</svg>
