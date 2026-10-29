@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useGsap } from '../hooks/useGsap';
 import { animateHeroTimeline } from '../animations/heroAnimations';
@@ -17,30 +17,47 @@ const heroSlides = [
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [prevSlide, setPrevSlide] = useState(null);
   const [isPaused, setIsPaused] = useState(false);
 
   const heroRef = useGsap((containerRef) => {
     return animateHeroTimeline(containerRef);
   }, []);
 
-  // Auto-advance slide every 3 seconds (3000ms)
+  // Preload all hero slide images immediately to eliminate any network or decoding latency
+  useEffect(() => {
+    heroSlides.forEach((slide) => {
+      const img = new Image();
+      img.src = slide.image;
+    });
+  }, []);
+
+  const goToSlide = (nextIndex) => {
+    setCurrentSlide((curr) => {
+      if (curr === nextIndex) return curr;
+      setPrevSlide(curr);
+      return nextIndex;
+    });
+  };
+
+  const nextSlide = () => {
+    goToSlide((currentSlide + 1) % heroSlides.length);
+  };
+
+  const prevSlideAction = () => {
+    goToSlide((currentSlide - 1 + heroSlides.length) % heroSlides.length);
+  };
+
+  // Auto-advance slide every 3.5 seconds
   useEffect(() => {
     if (isPaused) return;
 
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-    }, 3000);
+      goToSlide((currentSlide + 1) % heroSlides.length);
+    }, 3500);
 
     return () => clearInterval(timer);
-  }, [isPaused]);
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
-  };
+  }, [isPaused, currentSlide]);
 
   // Pure Cinematic Visual Showcase with Animated Glowing Border (No text clutter, No expand option)
   const renderCinematicFrame = () => (
@@ -58,32 +75,46 @@ const Hero = () => {
       {/* 3. Sleek Dark Glass Inner Frame */}
       <div className="relative z-10 w-full rounded-[0.9rem] sm:rounded-[1.4rem] bg-slate-950/95 backdrop-blur-2xl p-2 sm:p-2.5 overflow-hidden border border-white/10">
         
-        {/* Cinematic Widescreen Image Stage */}
-        <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-black aspect-[16/10] sm:aspect-[16/10.5] min-h-[240px] sm:min-h-[290px] lg:min-h-[350px] w-full flex items-center justify-center">
-          <AnimatePresence mode="wait">
-            <motion.img
-              key={currentSlide}
-              src={heroSlides[currentSlide].image}
-              alt={heroSlides[currentSlide].alt}
-              initial={{ opacity: 0, scale: 1.04 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.98 }}
-              transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-              className="w-full h-full object-cover object-center pointer-events-none"
-            />
-          </AnimatePresence>
+        {/* Cinematic Widescreen Image Stage with Seamless Layered Crossfade */}
+        <div className="relative overflow-hidden rounded-xl sm:rounded-2xl bg-slate-950 aspect-[16/10] sm:aspect-[16/10.5] min-h-[240px] sm:min-h-[290px] lg:min-h-[350px] w-full flex items-center justify-center">
+          {heroSlides.map((slide, idx) => {
+            const isActive = idx === currentSlide;
+            const isPrevious = idx === prevSlide;
+
+            return (
+              <motion.img
+                key={slide.id}
+                src={slide.image}
+                alt={slide.alt}
+                loading="eager"
+                fetchPriority={idx === 0 ? 'high' : 'auto'}
+                decoding="async"
+                initial={false}
+                animate={{
+                  opacity: isActive ? 1 : isPrevious ? 1 : 0,
+                  scale: isActive ? 1 : 1.04,
+                  zIndex: isActive ? 10 : isPrevious ? 5 : 1,
+                }}
+                transition={{
+                  opacity: { duration: 0.75, ease: [0.25, 0.1, 0.25, 1] },
+                  scale: { duration: 1.2, ease: [0.16, 1, 0.3, 1] },
+                }}
+                className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none select-none will-change-[opacity,transform]"
+              />
+            );
+          })}
 
           {/* Subtle Filmic Vignette */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/25 pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-black/25 pointer-events-none z-[15]" />
 
           {/* Discreet Hover Navigation Arrows (no text) */}
           <button
             type="button"
             onClick={(e) => {
               e.stopPropagation();
-              prevSlide();
+              prevSlideAction();
             }}
-            className="absolute left-3 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-red-600 text-white backdrop-blur-md border border-white/15 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer shadow-lg hover:scale-105"
+            className="absolute left-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-black/60 hover:bg-red-600 text-white backdrop-blur-md border border-white/15 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer shadow-lg hover:scale-105"
             aria-label="Previous slide"
           >
             <ChevronLeft className="w-4 h-4" />
@@ -95,19 +126,19 @@ const Hero = () => {
               e.stopPropagation();
               nextSlide();
             }}
-            className="absolute right-3 top-1/2 -translate-y-1/2 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-red-600 text-white backdrop-blur-md border border-white/15 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer shadow-lg hover:scale-105"
+            className="absolute right-3 top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-black/60 hover:bg-red-600 text-white backdrop-blur-md border border-white/15 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100 cursor-pointer shadow-lg hover:scale-105"
             aria-label="Next slide"
           >
             <ChevronRight className="w-4 h-4" />
           </button>
 
           {/* Clean Cinematic 3-Segment Progress Bar at bottom of screen */}
-          <div className="absolute bottom-3 left-4 right-4 z-20 flex items-center gap-2">
+          <div className="absolute bottom-3 left-4 right-4 z-30 flex items-center gap-2">
             {heroSlides.map((_, idx) => (
               <button
                 key={idx}
                 type="button"
-                onClick={() => setCurrentSlide(idx)}
+                onClick={() => goToSlide(idx)}
                 className="h-1.5 flex-1 rounded-full bg-white/20 overflow-hidden cursor-pointer transition-colors hover:bg-white/40"
                 aria-label={`Jump to slide ${idx + 1}`}
               >
@@ -116,7 +147,7 @@ const Hero = () => {
                     key={currentSlide + (isPaused ? '-paused' : '')}
                     initial={{ width: '0%' }}
                     animate={{ width: isPaused ? '0%' : '100%' }}
-                    transition={{ duration: 3, ease: 'linear' }}
+                    transition={{ duration: 3.5, ease: 'linear' }}
                     className="h-full bg-gradient-to-r from-red-500 via-rose-400 to-amber-400"
                   />
                 ) : (
