@@ -273,7 +273,7 @@ const Contact = ({ prefilledLoan = '', prefilledAmount = null }) => {
 
                 {/* Direct Action Touchpoints */}
                 <div className="space-y-3.5 text-sm">
-                  {/* Primary Phone */}
+                  {/* Direct Phone */}
                   <div className="p-3.5 rounded-2xl bg-slate-800/90 border border-red-500/30 hover:border-red-500/60 transition-all group">
                     <div className="flex items-center justify-between gap-3">
                       <div className="flex items-center gap-3">
@@ -283,7 +283,7 @@ const Contact = ({ prefilledLoan = '', prefilledAmount = null }) => {
                         <div>
                           <div className="flex items-center gap-2">
                             <span className="text-[11px] font-bold text-red-400 uppercase tracking-wide">
-                              Primary Calling Number
+                              Direct Calling Number
                             </span>
                             <span className="text-[9px] px-1.5 py-0.5 rounded bg-red-600/20 text-red-300 font-semibold">
                               Direct
@@ -319,45 +319,47 @@ const Contact = ({ prefilledLoan = '', prefilledAmount = null }) => {
                     </div>
                   </div>
 
-                  {/* Alternate Phone */}
-                  <div className="p-3.5 rounded-2xl bg-slate-800/60 border border-slate-700/80 hover:border-slate-600 transition-all group">
-                    <div className="flex items-center justify-between gap-3">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-xl bg-slate-700 text-white flex items-center justify-center shrink-0 font-bold">
-                          <Phone className="w-5 h-5 text-slate-200" />
+                  {/* Alternate Phone (if available) */}
+                  {siteData.contact.secondaryPhone && (
+                    <div className="p-3.5 rounded-2xl bg-slate-800/60 border border-slate-700/80 hover:border-slate-600 transition-all group">
+                      <div className="flex items-center justify-between gap-3">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-xl bg-slate-700 text-white flex items-center justify-center shrink-0 font-bold">
+                            <Phone className="w-5 h-5 text-slate-200" />
+                          </div>
+                          <div>
+                            <span className="text-[11px] font-medium text-slate-400 block">
+                              Alternate Calling Line
+                            </span>
+                            <span className="text-sm font-bold text-white group-hover:text-slate-200 transition-colors block">
+                              {siteData.contact.secondaryPhoneDisplay}
+                            </span>
+                          </div>
                         </div>
-                        <div>
-                          <span className="text-[11px] font-medium text-slate-400 block">
-                            Alternate Calling Line
-                          </span>
-                          <span className="text-sm font-bold text-white group-hover:text-slate-200 transition-colors block">
-                            {siteData.contact.secondaryPhoneDisplay}
-                          </span>
-                        </div>
-                      </div>
 
-                      <div className="flex items-center gap-1.5 shrink-0">
-                        <button
-                          type="button"
-                          onClick={() => copyToClipboard(siteData.contact.secondaryPhone, 'Alternate number', 'phone2')}
-                          className="p-2 rounded-lg bg-slate-700/80 hover:bg-slate-600 text-slate-300 hover:text-white transition-colors cursor-pointer"
-                          title="Copy alternate phone"
-                        >
-                          {copiedKey === 'phone2' ? (
-                            <Check className="w-4 h-4 text-emerald-400" />
-                          ) : (
-                            <Copy className="w-4 h-4" />
-                          )}
-                        </button>
-                        <a
-                          href={`tel:${siteData.contact.secondaryPhone}`}
-                          className="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-white font-bold text-xs transition-colors flex items-center gap-1"
-                        >
-                          <span>Call</span>
-                        </a>
+                        <div className="flex items-center gap-1.5 shrink-0">
+                          <button
+                            type="button"
+                            onClick={() => copyToClipboard(siteData.contact.secondaryPhone, 'Alternate number', 'phone2')}
+                            className="p-2 rounded-lg bg-slate-700/80 hover:bg-slate-600 text-slate-300 hover:text-white transition-colors cursor-pointer"
+                            title="Copy alternate phone"
+                          >
+                            {copiedKey === 'phone2' ? (
+                              <Check className="w-4 h-4 text-emerald-400" />
+                            ) : (
+                              <Copy className="w-4 h-4" />
+                            )}
+                          </button>
+                          <a
+                            href={`tel:${siteData.contact.secondaryPhone}`}
+                            className="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-white font-bold text-xs transition-colors flex items-center gap-1"
+                          >
+                            <span>Call</span>
+                          </a>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  )}
 
                   {/* WhatsApp Quick Advisory Channel */}
                   <div className="p-3.5 rounded-2xl bg-emerald-950/40 border border-emerald-500/40 hover:border-emerald-400/80 transition-all group">

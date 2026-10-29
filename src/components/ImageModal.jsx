@@ -1,6 +1,7 @@
 import React, { useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { siteData } from '../data/siteData';
 
 const ImageModal = ({
   isOpen,
@@ -141,7 +142,7 @@ const ImageModal = ({
                 Use &larr; &rarr; arrow keys to navigate
               </span>
               <a
-                href={`tel:9432957459`}
+                href={`tel:${siteData.contact.primaryPhone}`}
                 className="px-4 py-2 rounded-xl text-xs font-bold bg-red-600 hover:bg-red-700 text-white transition-colors"
               >
                 Call for Loan

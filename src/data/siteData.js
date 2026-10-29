@@ -23,14 +23,10 @@ export const siteData = {
   },
 
   contact: {
-    primaryPhone: "9432957459",
-    secondaryPhone: "8240616913",
-    tertiaryPhone: "7278917176",
-    primaryPhoneDisplay: "+91 94329 57459",
-    secondaryPhoneDisplay: "+91 82406 16913",
-    tertiaryPhoneDisplay: "+91 72789 17176",
-    whatsapp: "9432957459",
-    whatsappDisplay: "+91 94329 57459",
+    primaryPhone: "7278917176",
+    primaryPhoneDisplay: "+91 72789 17176",
+    whatsapp: "7278917176",
+    whatsappDisplay: "+91 72789 17176",
     email: "rsoumitra72@gmail.com",
     formattedAddress: "N. S. Bose Road, Narendrapur Rathtala, Sonarpur, Kolkata, South 24 Parganas, West Bengal - 700103",
     shortAddress: "Narendrapur Rathtala, Sonarpur, Kolkata - 700103",
@@ -309,7 +305,7 @@ export const siteData = {
     },
     {
       q: "Where is the office located and can I walk in directly?",
-      a: "Yes! Our office is located at Narendrapur Rathtala, Sonarpur, Kolkata - 700103 on N. S. Bose Road. You can walk in between 10:00 AM and 8:00 PM Monday through Saturday, or call +91 9432957459 to schedule an appointment.",
+      a: "Yes! Our office is located at Narendrapur Rathtala, Sonarpur, Kolkata - 700103 on N. S. Bose Road. You can walk in between 10:00 AM and 8:00 PM Monday through Saturday, or call +91 72789 17176 to schedule an appointment.",
     },
     {
       q: "Can you help if I am self-employed or run a small shop?",

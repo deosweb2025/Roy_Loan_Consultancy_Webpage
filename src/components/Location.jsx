@@ -194,23 +194,25 @@ const Location = () => {
                   <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
                     <span className="text-[10px] font-extrabold text-slate-400 uppercase tracking-wider flex items-center gap-1.5 mb-1.5">
                       <Phone className="w-3.5 h-3.5 text-emerald-600" />
-                      Direct Phone Helplines:
+                      Direct Phone Helpline:
                     </span>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm font-bold">
+                    <div className="grid grid-cols-1 gap-2 text-xs sm:text-sm font-bold">
                       <a
                         href={`tel:${siteData.contact.primaryPhone}`}
-                        className="flex items-center gap-1.5 text-slate-900 hover:text-red-600 transition-colors p-1.5 rounded-lg bg-white border border-slate-200"
+                        className="flex items-center gap-1.5 text-slate-900 hover:text-red-600 transition-colors p-2 rounded-lg bg-white border border-slate-200"
                       >
                         <PhoneCall className="w-3.5 h-3.5 text-red-600" />
                         <span>{siteData.contact.primaryPhoneDisplay}</span>
                       </a>
-                      <a
-                        href={`tel:${siteData.contact.secondaryPhone}`}
-                        className="flex items-center gap-1.5 text-slate-900 hover:text-red-600 transition-colors p-1.5 rounded-lg bg-white border border-slate-200"
-                      >
-                        <PhoneCall className="w-3.5 h-3.5 text-slate-500" />
-                        <span>{siteData.contact.secondaryPhoneDisplay}</span>
-                      </a>
+                      {siteData.contact.secondaryPhone && (
+                        <a
+                          href={`tel:${siteData.contact.secondaryPhone}`}
+                          className="flex items-center gap-1.5 text-slate-900 hover:text-red-600 transition-colors p-2 rounded-lg bg-white border border-slate-200"
+                        >
+                          <PhoneCall className="w-3.5 h-3.5 text-slate-500" />
+                          <span>{siteData.contact.secondaryPhoneDisplay}</span>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

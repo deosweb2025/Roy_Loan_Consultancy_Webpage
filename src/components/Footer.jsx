@@ -212,7 +212,7 @@ const Footer = () => {
                 <div className="flex items-center gap-2.5">
                   <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
                   <div>
-                    <span className="text-[10px] text-slate-500 block">Primary Consultant Line</span>
+                    <span className="text-[10px] text-slate-500 block">Direct Consultant Line</span>
                     <strong className="text-white group-hover:text-red-300 transition-colors">
                       {siteData.contact.primaryPhoneDisplay}
                     </strong>
@@ -223,18 +223,20 @@ const Footer = () => {
                 </span>
               </a>
 
-              <a
-                href={`tel:${siteData.contact.secondaryPhone}`}
-                className="flex items-center gap-2.5 p-2.5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors group"
-              >
-                <Phone className="w-4 h-4 text-slate-400 shrink-0" />
-                <div>
-                  <span className="text-[10px] text-slate-500 block">Alternate Line</span>
-                  <strong className="text-white group-hover:text-slate-200 transition-colors">
-                    {siteData.contact.secondaryPhoneDisplay}
-                  </strong>
-                </div>
-              </a>
+              {siteData.contact.secondaryPhone && (
+                <a
+                  href={`tel:${siteData.contact.secondaryPhone}`}
+                  className="flex items-center gap-2.5 p-2.5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors group"
+                >
+                  <Phone className="w-4 h-4 text-slate-400 shrink-0" />
+                  <div>
+                    <span className="text-[10px] text-slate-500 block">Alternate Line</span>
+                    <strong className="text-white group-hover:text-slate-200 transition-colors">
+                      {siteData.contact.secondaryPhoneDisplay}
+                    </strong>
+                  </div>
+                </a>
+              )}
 
               <a
                 href={`mailto:${siteData.contact.email}`}
